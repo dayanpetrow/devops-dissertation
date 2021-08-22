@@ -12,7 +12,8 @@ import { saveResponse } from "./controllers/saveResponse";
 import { getResponseCount } from "./controllers/getResponseCount";
 
 const app = express();
-const port = process.env.NODE_ENV === "production" ? 80 : 8080;
+const port =
+  process.env.NODE_ENV === "production" ? process.env.PORT || 8080 : 8080;
 
 app.use([bodyParser.urlencoded({ extended: true }), bodyParser.json()]);
 app.use([cors()]);
