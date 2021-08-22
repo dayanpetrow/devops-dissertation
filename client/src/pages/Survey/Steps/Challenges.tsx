@@ -4,11 +4,19 @@ import { Steps } from "../types";
 import { Submit, StepTitle, MultipleSelect } from "../../../components";
 
 import { useStepUtils } from "./useStepUtils";
+import { useDispatch, useSelector } from "react-redux";
+import { AppState } from "../../../store/rootReducer";
+import { callSaveSurveyAPI } from "../submitSurveySlice";
 
 export const Challenges: React.FC<any> = () => {
   const [formData, onChange, onChangeByName, onSubmit] = useStepUtils(
     Steps.CHALLENGES
   );
+
+  const dispatch = useDispatch();
+  const submitState = useSelector((state: AppState) => state.save);
+
+  const onCompleteSurvey = () => dispatch(callSaveSurveyAPI());
 
   return (
     <>
@@ -19,12 +27,12 @@ export const Challenges: React.FC<any> = () => {
             <Form.Item label="What challenges do you associate DevOps with on a company level? (maximum 3)">
               <MultipleSelect
                 options={[
-"Coping with cultural changes",
-"Upskilling current staff",
-"Recruitment",
-"Changing technology stack",
-"Transition to DevOps way of working",
-"Transitioning legacy infrastructure/projects to DevOps",
+                  "Coping with cultural changes",
+                  "Upskilling current staff",
+                  "Recruitment",
+                  "Changing technology stack",
+                  "Transition to DevOps way of working",
+                  "Transitioning legacy infrastructure/projects to DevOps",
                 ]}
                 selectedOptions={formData?.organizationalChallenges}
                 onChange={(nextSelected: string[]) =>
@@ -42,11 +50,11 @@ export const Challenges: React.FC<any> = () => {
             <Form.Item label="What challenges do you associate DevOps with on a team level? (maximum 3)">
               <MultipleSelect
                 options={[
-"Changing technology stack",
-"Coping with changing requirements",
-"Complexity of the tools and technologies",
-"Too many tools in existence",
-"Lack of documentation/resources",
+                  "Changing technology stack",
+                  "Coping with changing requirements",
+                  "Complexity of the tools and technologies",
+                  "Too many tools in existence",
+                  "Lack of documentation/resources",
                 ]}
                 selectedOptions={formData?.teamChallenges}
                 onChange={(nextSelected: string[]) =>
@@ -75,8 +83,13 @@ export const Challenges: React.FC<any> = () => {
         </Row>
 
         <Submit>
-          <Button type="primary" onClick={onSubmit} size={"large"}>
-            Next
+          <Button
+            type="primary"
+            onClick={onCompleteSurvey}
+            size={"large"}
+            loading={submitState.loading}
+          >
+            Submit Questionnaire
           </Button>
         </Submit>
       </Form>

@@ -80,8 +80,4 @@ const steps: Step[] = [
     title: "DevOps Challenges",
     description: "",
   },
-  {
-    title: "Final",
-    description: "",
-  },
 ];

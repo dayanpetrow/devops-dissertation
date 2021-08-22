@@ -37,7 +37,7 @@ export const MultipleSelect: React.FC<Props> = ({
 
     if (limit && limit < selectedItems.length) {
       setHasLimitError(true);
-      message.error(`Cannot select more than ${limit} options.`);
+      message.error(`You cannot select more than ${limit} options.`);
       return;
     }
 

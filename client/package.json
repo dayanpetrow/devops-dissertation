@@ -2,7 +2,7 @@
   "name": "dissertation-survey",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dayanpetrow.eu/test-survey/",
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@reduxjs/toolkit": "^1.5.1",

@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { AppState } from "../../store/rootReducer";
 import { Wrapper, Main, SurveyWrapper } from "./styled";
 import { Stepper } from "./Stepper/Stepper";
+import { TopBar } from "../../components/TopBar/TopBar";
 
 import { Personal } from "./Steps/Personal";
 import { Professional } from "./Steps/Professional";
@@ -29,8 +30,6 @@ const renderStep = (currentStep: number) => {
       return <Benefits />;
     case 6:
       return <Challenges />;
-    case 7:
-      return <Finish />;
     default:
       return <h1>Step not found!</h1>;
   }
@@ -45,6 +44,7 @@ export const Survey = () => {
     <Wrapper>
       <Stepper />
       <SurveyWrapper>
+        <TopBar />
         <Main>{renderStep(currentStep)}</Main>
       </SurveyWrapper>
     </Wrapper>
