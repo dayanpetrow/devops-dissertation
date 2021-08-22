@@ -50,7 +50,7 @@ export const callSaveSurveyAPI =
     try {
       const surveyData = getState().survey;
 
-      await axios.post("/api/responsedddasd", surveyData);
+      await axios.post("/api/response", surveyData);
 
       dispatch(saveSurveySuccess());
     } catch (error) {
