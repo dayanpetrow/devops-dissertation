@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd server && npm install && npm run build && cd .. && cd client && npm install && npm run build && cd .. && cd server && npm run prod"
+    "build": "npm i -g rimraf && cd server && npm install && npm run build && cd .. && cd client && npm install && npm run build && cd .. && cd server && npm run prod"
   },
   "repository": {
     "type": "git",
