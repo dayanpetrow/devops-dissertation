@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dayanpetrow/devops-dissertation/issues"
   },
-  "homepage": "https://github.com/dayanpetrow/devops-dissertation#readme"
+  "homepage": "https://github.com/dayanpetrow/devops-dissertation#readme",
+  "engines": {
+    "node": "12.18.4"
+  }
 }
