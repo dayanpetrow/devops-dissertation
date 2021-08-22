@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "set NODE_ENV=development&& nodemon server.ts",
-    "build": "node_modules/.bin/rimraf ./build && tsc --build",
+    "build": "rimraf ./build && tsc --build",
     "start:prod": "set NODE_ENV=development&& npm run build && node build/server.js",
     "prod": "set NODE_ENV=production&& node build/server.js"
   },
