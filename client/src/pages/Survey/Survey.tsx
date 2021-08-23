@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { AppState } from "../../store/rootReducer";
 import { Wrapper, Main, SurveyWrapper } from "./styled";
@@ -39,6 +39,14 @@ export const Survey = () => {
   const currentStep = useSelector(
     (state: AppState) => state.stepper.currentStep
   );
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, [currentStep]);
 
   return (
     <Wrapper>
