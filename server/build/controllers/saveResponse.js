@@ -38,13 +38,30 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.saveResponse = void 0;
 var mongoClient_1 = require("../db/mongoClient");
+var requiredKeys = [
+    "consentFormAccepted",
+    "professional",
+    "perception",
+    "maturity",
+    "culture",
+    "benefits",
+    "challenges",
+    "submittedAt",
+];
 var saveResponse = function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
-    var surveyResponse, database, collection, result, err_1;
+    var surveyResponse, responseKeys_1, isValidSurvey, database, collection, result, err_1;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
                 _a.trys.push([0, 3, 4, 6]);
                 surveyResponse = req.body;
+                responseKeys_1 = Object.keys(surveyResponse);
+                isValidSurvey = requiredKeys.every(function (requiredKey) {
+                    return responseKeys_1.includes(requiredKey);
+                });
+                if (!isValidSurvey) {
+                    return [2 /*return*/, res.status(403).json({ errorMessage: "Invalid survey data." })];
+                }
                 return [4 /*yield*/, mongoClient_1.dbConnection.connect()];
             case 1:
                 _a.sent();

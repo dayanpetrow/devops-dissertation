@@ -27,14 +27,14 @@ export const Stepper = () => {
           onChange={(val: string) => onChange(+val)}
         >
           {steps.map((step, index) => (
-            <Select.Option value={index.toString()}>{step.title}</Select.Option>
+            <Select.Option key={index} value={index.toString()}>{step.title}</Select.Option>
           ))}
         </Select>
       </MobileStepper>
       <Wrapper>
         <Steps current={currentStep} onChange={onChange} direction="vertical">
-          {steps.map((step) => (
-            <Steps.Step title={step.title} description={step.description} />
+          {steps.map((step, index) => (
+            <Steps.Step key={index} title={step.title} description={step.description} />
           ))}
         </Steps>
       </Wrapper>

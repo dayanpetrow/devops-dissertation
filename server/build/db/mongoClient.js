@@ -63,8 +63,8 @@ function connect() {
 }
 connect().catch(console.dir);
 exports.dbConnection = client;
-// export const dbName = "dissertation";
+exports.dbName = "dissertation";
+exports.dbCollection = process.env.NODE_ENV === "production" ? "prod" : "dev";
+// export const dbName = "test";
 // export const dbCollection =
-//   process.env.NODE_ENV === "production" ? "prod" : "dev";
-exports.dbName = "test";
-exports.dbCollection = process.env.NODE_ENV === "production" ? "test" : "test";
+//   process.env.NODE_ENV === "production" ? "test" : "test";

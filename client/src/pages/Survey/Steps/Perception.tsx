@@ -58,7 +58,7 @@ export const Perception: React.FC<any> = () => {
                   { value: "2", text: "DevOps extends Agile" },
                   { value: "3", text: "I don't know" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}

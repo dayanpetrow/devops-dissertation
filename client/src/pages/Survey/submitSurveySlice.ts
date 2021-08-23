@@ -50,11 +50,14 @@ export const callSaveSurveyAPI =
     try {
       const surveyData = getState().survey;
 
-      await axios.post("/api/response", surveyData);
+      await axios.post("/api/response", {
+        ...surveyData,
+        submittedAt: Date.now(),
+      });
 
       dispatch(saveSurveySuccess());
     } catch (error) {
       dispatch(saveSurveyFailure(error));
-      message.error('We failed to save your responses!');
+      message.error("We failed to save your responses!");
     }
   };

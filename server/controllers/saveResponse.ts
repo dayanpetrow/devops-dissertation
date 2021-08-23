@@ -1,9 +1,29 @@
-import { Request, Response } from "express";
+import { Request, response, Response } from "express";
 import { dbConnection, dbName, dbCollection } from "../db/mongoClient";
+
+const requiredKeys = [
+  "consentFormAccepted",
+  "professional",
+  "perception",
+  "maturity",
+  "culture",
+  "benefits",
+  "challenges",
+  "submittedAt",
+];
 
 export const saveResponse = async (req: Request, res: Response) => {
   try {
     const { body: surveyResponse } = req;
+
+    const responseKeys = Object.keys(surveyResponse);
+    const isValidSurvey = requiredKeys.every((requiredKey: string) =>
+      responseKeys.includes(requiredKey)
+    );
+
+    if (!isValidSurvey) {
+      return res.status(403).json({ errorMessage: "Invalid survey data." });
+    }
 
     await dbConnection.connect();
 

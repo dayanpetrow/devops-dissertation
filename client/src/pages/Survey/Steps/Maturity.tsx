@@ -37,7 +37,7 @@ export const Maturity: React.FC<any> = () => {
                   { value: "6", text: "Less than one day" },
                   { value: "8", text: "Less than one hour" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -64,7 +64,7 @@ export const Maturity: React.FC<any> = () => {
                   },
                   { value: "0", text: "Fewer than once per month" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -89,7 +89,7 @@ export const Maturity: React.FC<any> = () => {
                   { value: "6", text: "Less than one day" },
                   { value: "8", text: "Less than one hour" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -119,7 +119,7 @@ export const Maturity: React.FC<any> = () => {
                   { value: "2", text: "61–75%" },
                   { value: "0", text: "76–100%" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -154,7 +154,7 @@ export const Maturity: React.FC<any> = () => {
                   },
                   { value: "1", text: "Other" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}

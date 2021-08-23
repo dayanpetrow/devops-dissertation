@@ -19,10 +19,10 @@ connect().catch(console.dir);
 
 export const dbConnection = client;
 
-// export const dbName = "dissertation";
-// export const dbCollection =
-//   process.env.NODE_ENV === "production" ? "prod" : "dev";
-
-export const dbName = "test";
+export const dbName = "dissertation";
 export const dbCollection =
-  process.env.NODE_ENV === "production" ? "test" : "test";
+  process.env.NODE_ENV === "production" ? "prod" : "dev";
+
+// export const dbName = "test";
+// export const dbCollection =
+//   process.env.NODE_ENV === "production" ? "test" : "test";

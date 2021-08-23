@@ -96,7 +96,7 @@ export const Scale: React.FC<Props> = (props) => {
       <div className={"title"}>{title}</div>
       <div className={"options"}>
         {options.map((_opt: any, index: number) => (
-          <div className={"option"} onClick={() => onChange(_opt.value)}>
+          <div className={"option"} onClick={() => onChange(_opt.value)} key={_opt.value}>
             <Radio.Group
               onChange={_onChange}
               value={value}
@@ -120,7 +120,7 @@ export const ScaleLabels = () => {
       <div className={"title"}></div>
       <div className={"options"}>
         {options.map((_opt: any) => (
-          <div className={"option"}>{_opt.label}</div>
+          <div key={_opt.value}className={"option"}>{_opt.label}</div>
         ))}
       </div>
     </Wrapper>

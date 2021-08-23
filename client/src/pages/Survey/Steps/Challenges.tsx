@@ -90,7 +90,7 @@ export const Challenges: React.FC<any> = () => {
         </Row>
 
         <Submit>
-          <Checkbox onChange={onReadyChange} value={isReady}>
+          <Checkbox onChange={onReadyChange} checked={isReady}>
             I am ready to submit my responses.
           </Checkbox>
           <Button

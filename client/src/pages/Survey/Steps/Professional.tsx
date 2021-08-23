@@ -32,7 +32,7 @@ export const Professional: React.FC<any> = () => {
                   { value: "5", text: "Testing" },
                   { value: "6", text: "Other" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -54,7 +54,7 @@ export const Professional: React.FC<any> = () => {
                   { value: "4", text: "11-20" },
                   { value: "5", text: "More than 20" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -83,7 +83,7 @@ export const Professional: React.FC<any> = () => {
                   },
                   { value: "3", text: "Multinational" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -106,7 +106,7 @@ export const Professional: React.FC<any> = () => {
                   { value: "5", text: "500-1999" },
                   { value: "6", text: "More than 2000" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}
@@ -128,7 +128,7 @@ export const Professional: React.FC<any> = () => {
                   { value: "2", text: "Product" },
                   { value: "3", text: "Mixed" },
                 ].map((_option: any) => (
-                  <Select.Option value={_option.value}>
+                  <Select.Option key={_option.value} value={_option.value}>
                     {_option.text}
                   </Select.Option>
                 ))}

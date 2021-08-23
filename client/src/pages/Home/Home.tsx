@@ -81,16 +81,20 @@ export const Home = () => {
                   adoption?
                 </li>
               </ul>
+              <p>
+                For questions and general information, please use the contact
+                details listed at the top of the page.
+              </p>
             </Panel>
             <Panel header="Consent Agreement" key="2">
-              {consentParagrahs.map((para) => (
-                <p>{para}</p>
+              {consentParagrahs.map((para, index) => (
+                <p key={index}>{para}</p>
               ))}
             </Panel>
           </Collapse>
 
           <div className={"agreement"}>
-            <Checkbox onChange={onChange} value={isChecked}>
+            <Checkbox onChange={onChange} checked={isChecked}>
               I have read and understood the Consent Agreement.
             </Checkbox>
           </div>
