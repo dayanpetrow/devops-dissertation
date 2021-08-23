@@ -24,7 +24,8 @@ export const Main = styled.div`
   width: 100%;
   max-width: 1440px;
   @media (max-width: 1024px) {
-    padding: 24px;
+    min-height: auto;
+    padding: 24px 24px 24px 24px;
     justify-content: start;
   }
 `;

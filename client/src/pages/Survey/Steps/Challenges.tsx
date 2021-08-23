@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Form, Button, Row, Col, Input } from "antd";
 import { Steps } from "../types";
 import { Submit, StepTitle, MultipleSelect } from "../../../components";
@@ -7,8 +7,11 @@ import { useStepUtils } from "./useStepUtils";
 import { useDispatch, useSelector } from "react-redux";
 import { AppState } from "../../../store/rootReducer";
 import { callSaveSurveyAPI } from "../submitSurveySlice";
+import Checkbox from "antd/lib/checkbox/Checkbox";
 
 export const Challenges: React.FC<any> = () => {
+  const [isReady, setIsReady] = useState(false);
+
   const [formData, onChange, onChangeByName, onSubmit] = useStepUtils(
     Steps.CHALLENGES
   );
@@ -17,6 +20,10 @@ export const Challenges: React.FC<any> = () => {
   const submitState = useSelector((state: AppState) => state.save);
 
   const onCompleteSurvey = () => dispatch(callSaveSurveyAPI());
+
+  const onReadyChange = (e: any) => {
+    setIsReady(e.target.checked);
+  };
 
   return (
     <>
@@ -83,10 +90,14 @@ export const Challenges: React.FC<any> = () => {
         </Row>
 
         <Submit>
+          <Checkbox onChange={onReadyChange} value={isReady}>
+            I am ready to submit my responses.
+          </Checkbox>
           <Button
             type="primary"
             onClick={onCompleteSurvey}
             size={"large"}
+            disabled={!isReady}
             loading={submitState.loading}
           >
             Complete Questionnaire

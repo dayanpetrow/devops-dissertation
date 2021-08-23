@@ -90,7 +90,7 @@ export const Home = () => {
           </Collapse>
 
           <div className={"agreement"}>
-            <Checkbox onChange={onChange}>
+            <Checkbox onChange={onChange} value={isChecked}>
               I have read and understood the Consent Agreement.
             </Checkbox>
           </div>

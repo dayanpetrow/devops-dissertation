@@ -19,7 +19,7 @@ app.use([bodyParser.urlencoded({ extended: true }), bodyParser.json()]);
 app.use([cors()]);
 
 app.get("/api/responses", fetchResponses);
-app.get("/api/count", getResponseCount);
+app.get("/api/status", getResponseCount);
 app.post("/api/response", saveResponse);
 
 app.use(express.static(path.join(__dirname, "build")));
