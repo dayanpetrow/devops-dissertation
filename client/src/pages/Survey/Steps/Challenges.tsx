@@ -12,14 +12,16 @@ import Checkbox from "antd/lib/checkbox/Checkbox";
 export const Challenges: React.FC<any> = () => {
   const [isReady, setIsReady] = useState(false);
 
-  const [formData, onChange, onChangeByName, onSubmit] = useStepUtils(
-    Steps.CHALLENGES
-  );
+  const [formData, onChange, onChangeByName, onSubmit, saveStepData] =
+    useStepUtils(Steps.CHALLENGES);
 
   const dispatch = useDispatch();
   const submitState = useSelector((state: AppState) => state.save);
 
-  const onCompleteSurvey = () => dispatch(callSaveSurveyAPI());
+  const onCompleteSurvey = () => {
+    saveStepData();
+    dispatch(callSaveSurveyAPI());
+  };
 
   const onReadyChange = (e: any) => {
     setIsReady(e.target.checked);

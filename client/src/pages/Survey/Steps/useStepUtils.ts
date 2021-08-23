@@ -52,5 +52,5 @@ export const useStepUtils = (stepName: any) => {
     submitData.current = formData;
   }, [formData]);
 
-  return [formData, onChange, onChangeByName, onSubmit];
+  return [formData, onChange, onChangeByName, onSubmit, saveStepData];
 };
