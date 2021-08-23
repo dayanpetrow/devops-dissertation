@@ -18,6 +18,7 @@ async function connect() {
 connect().catch(console.dir);
 
 export const dbConnection = client;
+
 // export const dbName = "dissertation";
 // export const dbCollection =
 //   process.env.NODE_ENV === "production" ? "prod" : "dev";

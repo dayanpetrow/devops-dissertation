@@ -14,6 +14,7 @@ import { Tools } from "./Steps/Tools";
 import { Benefits } from "./Steps/Benefits";
 import { Challenges } from "./Steps/Challenges";
 import { Finish } from "./Steps/Finish";
+import { Helmet } from "react-helmet";
 
 const renderStep = (currentStep: number) => {
   const normalizedStep = currentStep + 1;
@@ -49,12 +50,17 @@ export const Survey = () => {
   }, [currentStep]);
 
   return (
-    <Wrapper>
-      <Stepper />
-      <SurveyWrapper>
-        <TopBar />
-        <Main>{renderStep(currentStep)}</Main>
-      </SurveyWrapper>
-    </Wrapper>
+    <>
+      <Helmet>
+        <title>{`${currentStep+1}/6`} DevOps Research</title>
+      </Helmet>
+      <Wrapper>
+        <Stepper />
+        <SurveyWrapper>
+          <TopBar />
+          <Main>{renderStep(currentStep)}</Main>
+        </SurveyWrapper>
+      </Wrapper>
+    </>
   );
 };

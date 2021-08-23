@@ -18,9 +18,6 @@ export const App = () => {
 
   return (
     <>
-      <Helmet>
-        <title>DevOps Research</title>
-      </Helmet>
       {consentFormAccepted ? <Survey /> : <Home />}
     </>
   );
