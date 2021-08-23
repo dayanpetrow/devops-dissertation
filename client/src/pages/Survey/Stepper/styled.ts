@@ -10,7 +10,7 @@ export const Wrapper = styled.aside`
   min-height: 100vh;
   z-index: 2;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     display: none;
   }
 `;
@@ -28,7 +28,7 @@ export const MobileStepper = styled.div`
     font-size: 16px;
     font-weight: 600;
   }
-  @media (min-width: 992px) {
+  @media (min-width: 1023px) {
     display: none;
   }
 `;

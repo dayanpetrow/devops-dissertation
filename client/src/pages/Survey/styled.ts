@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: minmax(200px, 350px) auto;
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     grid-template-columns: 1fr;
     grid-template-rows: 80px auto;
   }
@@ -23,7 +23,7 @@ export const Main = styled.div`
   min-height: calc(100vh - 100px);
   width: 100%;
   max-width: 1440px;
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     padding: 24px;
     justify-content: start;
   }

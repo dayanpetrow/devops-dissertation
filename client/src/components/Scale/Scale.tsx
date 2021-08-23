@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     margin: 6px 0;
     border-bottom: 1px solid #e9e9e9;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
   }
 
   .options {
@@ -43,18 +43,32 @@ const Wrapper = styled.div`
   .option,
   .ant-radio-wrapper {
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    @media (min-width: 769px) {
+    margin-right: 2px;
+    > span {
+      padding: 0px;
+    }
+
+    @media (max-width: 769px) {
       > span {
-        padding: 0;
+        text-align: center;
       }
+    }
+    @media (max-width: 769px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
     }
   }
   .ant-radio-inner {
     border: 1px solid #424242;
   }
   .label {
+    text-align: center;
+    font-size: 11px;
+    line-height: 11px;
     @media (min-width: 769px) {
       display: none;
     }
@@ -63,6 +77,10 @@ const Wrapper = styled.div`
   .title {
     display: flex;
     align-items: center;
+  }
+
+  .ant-radio {
+    margin: 4px;
   }
 `;
 

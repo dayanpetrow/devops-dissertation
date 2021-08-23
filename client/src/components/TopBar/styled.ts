@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   padding: 12px 32px;
+
+  @media (max-width: 1024px) {
+    padding: 24px;
+  }
+
   .topbar {
     padding: 12px;
     border-radius: 4px;

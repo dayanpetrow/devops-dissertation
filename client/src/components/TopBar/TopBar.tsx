@@ -4,7 +4,7 @@ import { Wrapper } from "./styled";
 import { IoMdMail, IoLogoLinkedin } from "react-icons/io";
 import { LinkedinOutlined } from "@ant-design/icons";
 
-const emailAddress = "dpetrov@citycollege.sheffield.eu";
+const emailAddress = "dpetrov1@sheffield.ac.uk";
 const linkedIn = "https://www.linkedin.com/in/dayanpetrow/";
 
 export const TopBar = () => {
