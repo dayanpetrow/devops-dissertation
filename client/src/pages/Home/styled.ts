@@ -26,6 +26,14 @@ export const Wrapper = styled.div`
       line-height: 44px;
       width: 80%;
       margin: 0 auto;
+      @media (max-width: 992px) {
+        font-size: 28px;
+        line-height: 32px;
+      }
+      @media (max-width: 600px) {
+        font-size: 22px;
+        line-height: 25px;
+      }
     }
   }
 

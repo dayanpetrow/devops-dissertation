@@ -19,7 +19,7 @@ export const Stepper = () => {
   return (
     <>
       <MobileStepper>
-        <span>{`Step ${currentStep + 1}/8`}</span>
+        <span>{`Step ${currentStep + 1}/${steps.length}`}</span>
         <Select
           style={{ width: "70%", maxWidth: "250px" }}
           size={"large"}
@@ -48,10 +48,6 @@ type Step = {
 };
 
 const steps: Step[] = [
-  // {
-  //   title: "Personal Information",
-  //   description: "",
-  // },
   {
     title: "Professional Background",
     description: "",
@@ -68,10 +64,6 @@ const steps: Step[] = [
     title: "DevOps Culture",
     description: "",
   },
-  // {
-  //   title: "DevOps Tools",
-  //   description: "",
-  // },
   {
     title: "DevOps Benefits",
     description: "",

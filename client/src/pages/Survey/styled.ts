@@ -19,7 +19,7 @@ export const Main = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 72px 48px;
+  padding: 12px 48px;
   min-height: calc(100vh - 100px);
   width: 100%;
   max-width: 1440px;

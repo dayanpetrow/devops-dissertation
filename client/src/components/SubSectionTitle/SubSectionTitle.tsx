@@ -16,6 +16,10 @@ const Wrapper = styled.div`
     text-transform: uppercase;
     padding: 0;
     margin: 0;
+    @media (max-width: 600px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 `;
 

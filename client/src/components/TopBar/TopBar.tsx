@@ -25,7 +25,7 @@ export const TopBar = () => {
         <Button
           type="link"
           onClick={onCopy}
-          size={"large"}
+          size={"small"}
           className={"contact-button"}
         >
           <IoMdMail size={24} />
@@ -33,9 +33,10 @@ export const TopBar = () => {
         </Button>
         <Button
           type="link"
-          size={"large"}
+          size={"small"}
           className={"contact-button"}
           href={linkedIn}
+          target={'_blank'}
         >
           <IoLogoLinkedin size={24} />
           Dayan Petrow

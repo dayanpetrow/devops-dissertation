@@ -89,7 +89,7 @@ export const Challenges: React.FC<any> = () => {
             size={"large"}
             loading={submitState.loading}
           >
-            Submit Questionnaire
+            Complete Questionnaire
           </Button>
         </Submit>
       </Form>

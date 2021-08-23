@@ -9,6 +9,8 @@ const Wrapper = styled.div`
   justify-content: center;
   background-color: #f9f9f9;
   padding: 12px 16px;
+  margin-top: 16px;
+  border-radius: 4px;
 `;
 
 export const Submit: React.FC<any> = (props) => {

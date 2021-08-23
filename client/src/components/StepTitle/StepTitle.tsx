@@ -90,7 +90,7 @@ const Wrapper = styled.div`
     justify-content: center;
   }
   @media (max-width: 600px) {
-    font-size: 24px;
+    font-size: 20px;
   }
 `;
 

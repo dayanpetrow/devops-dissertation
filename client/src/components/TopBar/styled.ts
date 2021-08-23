@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  height: 100px;
   width: 100%;
-  padding: 12px;
+  padding: 12px 32px;
   .topbar {
     padding: 12px;
-    border-radius: 6px;
-    background-color: #e9e9e9;
+    border-radius: 4px;
+    background-color: #f9f9f9;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -20,8 +19,17 @@ export const Wrapper = styled.div`
       align-items: center;
       padding: 6px !important;
       svg {
-          margin-right: 4px;
+        margin-right: 4px;
       }
+      @media (max-width: 768px) {
+        margin: 6px 0;
+      }
+    }
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 `;

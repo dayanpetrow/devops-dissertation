@@ -26,7 +26,7 @@ export const Culture: React.FC<any> = () => {
         <SubSectionTitle title={"In my organization..."} />
         <Scale
           title={
-            "Teams are generally cross-functional (developers, designers, QAs and business analysts work together in the same team):"
+            "Teams are generally cross-functional (developers, designers, QAs and business analysts work together in the same team)"
           }
           onChange={(value: any) =>
             onChangeByName("multidiscplinaryTeams", value)
