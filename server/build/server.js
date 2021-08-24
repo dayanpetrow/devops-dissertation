@@ -13,7 +13,7 @@ var findResponses_1 = require("./controllers/findResponses");
 var saveResponse_1 = require("./controllers/saveResponse");
 var getResponseCount_1 = require("./controllers/getResponseCount");
 var app = express_1.default();
-var port = process.env.NODE_ENV === "production" ? process.env.PORT || 80 : 8080;
+var port = process.env.NODE_ENV === "production" ? process.env.PORT || 8080 : 8080;
 app.use([body_parser_1.default.urlencoded({ extended: true }), body_parser_1.default.json()]);
 app.use([cors_1.default()]);
 app.get("/api/responses", findResponses_1.fetchResponses);
