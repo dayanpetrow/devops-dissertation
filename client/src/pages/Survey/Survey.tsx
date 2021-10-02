@@ -15,6 +15,10 @@ import { Benefits } from "./Steps/Benefits";
 import { Challenges } from "./Steps/Challenges";
 import { Finish } from "./Steps/Finish";
 import { Helmet } from "react-helmet";
+import {
+  SurveyClosedAlert,
+  SURVEY_CLOSED,
+} from "../../components/SurveyClosedAlert/SurveyClosedAlert";
 
 const renderStep = (currentStep: number) => {
   const normalizedStep = currentStep + 1;
@@ -52,13 +56,16 @@ export const Survey = () => {
   return (
     <>
       <Helmet>
-        <title>{`${currentStep+1}/6`} DevOps Research</title>
+        <title>{`${currentStep + 1}/6`} DevOps Research</title>
       </Helmet>
       <Wrapper>
         <Stepper />
         <SurveyWrapper>
           <TopBar />
-          <Main>{renderStep(currentStep)}</Main>
+          <Main>
+            {SURVEY_CLOSED && <SurveyClosedAlert />}
+            {renderStep(currentStep)}
+          </Main>
         </SurveyWrapper>
       </Wrapper>
     </>

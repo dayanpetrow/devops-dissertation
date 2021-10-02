@@ -5,6 +5,10 @@ import { acceptAgreement } from "../Survey/surveySlice";
 import { TopBar } from "../../components/TopBar/TopBar";
 import { Wrapper } from "./styled";
 import shefLogo from "../../logo.png";
+import {
+  SurveyClosedAlert,
+  SURVEY_CLOSED,
+} from "../../components/SurveyClosedAlert/SurveyClosedAlert";
 
 const { Panel } = Collapse;
 
@@ -49,6 +53,7 @@ export const Home = () => {
         </header>
 
         <div className={"consent-wrapper"}>
+          {SURVEY_CLOSED && <SurveyClosedAlert />}
           <Collapse defaultActiveKey={["1"]} accordion={false}>
             <Panel header="Project Information (20/07/2021)" key="1">
               <p>

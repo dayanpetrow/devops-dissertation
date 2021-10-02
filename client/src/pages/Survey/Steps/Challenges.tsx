@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppState } from "../../../store/rootReducer";
 import { callSaveSurveyAPI } from "../submitSurveySlice";
 import Checkbox from "antd/lib/checkbox/Checkbox";
+import { SURVEY_CLOSED } from "../../../components/SurveyClosedAlert/SurveyClosedAlert";
 
 export const Challenges: React.FC<any> = () => {
   const [isReady, setIsReady] = useState(false);
@@ -20,7 +21,7 @@ export const Challenges: React.FC<any> = () => {
 
   const onCompleteSurvey = () => {
     saveStepData();
-    dispatch(callSaveSurveyAPI());
+    !SURVEY_CLOSED && dispatch(callSaveSurveyAPI());
   };
 
   const onReadyChange = (e: any) => {
@@ -92,17 +93,19 @@ export const Challenges: React.FC<any> = () => {
         </Row>
 
         <Submit>
-          <Checkbox onChange={onReadyChange} checked={isReady}>
-            I am ready to submit my responses.
-          </Checkbox>
+          {!SURVEY_CLOSED && (
+            <Checkbox onChange={onReadyChange} checked={isReady}>
+              I am ready to submit my responses.
+            </Checkbox>
+          )}
           <Button
             type="primary"
             onClick={onCompleteSurvey}
             size={"large"}
-            disabled={!isReady}
+            disabled={!isReady || SURVEY_CLOSED}
             loading={submitState.loading}
           >
-            Complete Questionnaire
+            {SURVEY_CLOSED ? "Survey is closed!" : "Complete Questionnaire"}
           </Button>
         </Submit>
       </Form>
