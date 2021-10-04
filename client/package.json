@@ -32,6 +32,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "build:linux": "react-scripts build && mv build ../server/build",
     "build:win": "react-scripts build && move build ../server/build",
     "test": "react-scripts test",
