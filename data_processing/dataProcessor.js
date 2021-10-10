@@ -9,13 +9,19 @@ const processChallengesStep = require("./processors/processChallenges");
 const combineRelevantData = require("./processors/combineRelevantData");
 
 const allResponsesRaw = fs.readFileSync("allResponses.json");
-const allResponses = JSON.parse(allResponsesRaw).data;
+
+const INVALID_DATA = ["613e6d369458375fc594cd43"];
+const allResponses = JSON.parse(allResponsesRaw).filter(
+  (response) => !INVALID_DATA.includes(response._id)
+);
+
+console.log("Responses count: ", allResponses.length);
 
 const professionalStepData = processProfessionalData(allResponses);
 const maturityStepData = processMaturityData(allResponses);
 const cultureStepData = processCultureStep(allResponses);
 
-processPerceptionData(allResponses);
+const perceptionStepData = processPerceptionData(allResponses);
 processBenefitsStep(allResponses);
 processChallengesStep(allResponses);
 
@@ -23,4 +29,7 @@ combineRelevantData({
   professionalStep: professionalStepData,
   cultureStep: cultureStepData,
   maturityStep: maturityStepData,
+  perceptionStep: perceptionStepData,
 });
+
+console.log('Success!')

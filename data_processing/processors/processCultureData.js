@@ -35,6 +35,7 @@ const processCultureStep = (responses) => {
     CUL_OUTCOMM: {},
     CUL_TEAMCON: {},
     CUL_TOTAL: {},
+    CUL_AVG: {},
   };
 
   const cultureStepData = responses.map((response) => {
@@ -72,6 +73,7 @@ const processCultureStep = (responses) => {
     return {
       ...response,
       CUL_TOTAL: total,
+      CUL_AVG: (total/10).toFixed(2),
     };
   });
 
@@ -93,6 +95,13 @@ const processCultureStep = (responses) => {
       ...statistics["CUL_TOTAL"],
       [response.CUL_TOTAL]: statistics["CUL_TOTAL"][response.CUL_TOTAL]
         ? statistics["CUL_TOTAL"][response.CUL_TOTAL] + 1
+        : 1,
+    };
+
+    statistics["CUL_AVG"] = {
+      ...statistics["CUL_AVG"],
+      [response.CUL_AVG]: statistics["CUL_AVG"][response.CUL_AVG]
+        ? statistics["CUL_AVG"][response.CUL_AVG] + 1
         : 1,
     };
   });

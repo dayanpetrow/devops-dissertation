@@ -94,6 +94,7 @@ const processMaturityStep = (responses) => {
     MAT_DOCUME: {},
     MAT_DEPSTA: {},
     MAT_TOTAL: {},
+    MAT_AVG: {},
   };
 
   const maturityStepData = responses.map((response) => {
@@ -169,6 +170,7 @@ const processMaturityStep = (responses) => {
     return {
       ...response,
       MAT_TOTAL: total,
+      MAT_AVG: (total/17).toFixed(2),
     };
   });
 
@@ -265,6 +267,14 @@ const processMaturityStep = (responses) => {
         ? statistics["MAT_TOTAL"][response.MAT_TOTAL] + 1
         : 1,
     };
+
+    statistics["MAT_AVG"] = {
+      ...statistics["MAT_AVG"],
+      [response.MAT_AVG]: statistics["MAT_AVG"][response.MAT_AVG]
+        ? statistics["MAT_AVG"][response.MAT_AVG] + 1
+        : 1,
+    };
+
   });
 
   const maturityStatistics = JSON.stringify(statistics);

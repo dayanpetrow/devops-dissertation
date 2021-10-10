@@ -85,6 +85,13 @@ const processPerceptionStep = (responses) => {
     };
   });
 
+  Object.keys(commonWords).forEach(word => {
+    commonWords[word] = {
+      words: commonWords[word],
+      length: commonWords[word].length
+    }
+  });
+
   new ObjectsToCsv(perceptionStepData).toDisk(
     "./dist/perception/perception.csv",
     {
@@ -101,6 +108,8 @@ const processPerceptionStep = (responses) => {
     commonWords,
   });
   fs.writeFileSync("./dist/perception/perceptionStatistics.json", statistics);
+
+  return perceptionStepData;
 };
 
 module.exports = processPerceptionStep;

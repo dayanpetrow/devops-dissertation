@@ -5,6 +5,7 @@ const combineRelevantData = ({
   professionalStep,
   cultureStep,
   maturityStep,
+  perceptionStep,
 }) => {
   const cultureHashmap = cultureStep.reduce((hashmap, response) => {
     hashmap[response._ID] = { ...response };
@@ -16,11 +17,19 @@ const combineRelevantData = ({
     return hashmap;
   }, {});
 
+  const perceptionHashmap = perceptionStep.reduce((hashmap, response) => {
+    hashmap[response._ID] = { ...response };
+    return hashmap;
+  }, {});
+
   const combinedData = professionalStep.map((response) => {
     return {
       ...response,
       CUL_TOTAL: cultureHashmap[response._ID].CUL_TOTAL,
+      CUL_AVG: cultureHashmap[response._ID].CUL_AVG,
       MAT_TOTAL: maturityHashmap[response._ID].MAT_TOTAL,
+      MAT_AVG: maturityHashmap[response._ID].MAT_AVG,
+      PER_AGIREL: perceptionHashmap[response._ID].PER_AGIREL,
     };
   });
 

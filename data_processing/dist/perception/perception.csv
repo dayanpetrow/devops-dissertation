@@ -25,7 +25,6 @@ NA,Facilitation of CI/CD process,61275b639458375fc594cd2d
 2,DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.,612cc5da9458375fc594cd40
 3,"Configuration, deployment and development ",612d61339458375fc594cd41
 2,Supports development work with good automation practices ,612dd9a19458375fc594cd42
-NA,,613e6d369458375fc594cd43
 2,,613e70ca9458375fc594cd44
 2,The old System administrator which knows how to use the modern tools. ,613eeb559458375fc594cd45
 3,automation + automation + more automation,613f24d59458375fc594cd46
@@ -57,3 +56,25 @@ Even though I think that Devops extends Agile, I also think that it can replace 
 2,DevOps is a working model in which the Developers collaborate closely with the Operations (OPS) team. It is in principle a communication platform in order to reduce the resistance between the DEVs and OPS. The DEVS do want change (new releases all the time) and the OPS want stability (No phone calls at night for breaking services). DevOps aims to reduce this gap. ,615291a69458375fc594cd5e
 3,Collaboration between the development and operation teams.,6152d00a9458375fc594cd5f
 0,,6152f7cd9458375fc594cd60
+2,DevOps is the automation of traditional software development and infrastructure management processes through continuous delivery and continuous deployment pipelines.,61531e8c9458375fc594cd61
+2,"It's a cultural idea to bring together development and operations. A key feature of DevOps is the automation of what can be automated - tests, builds, deployments, and even management of infrastructure.",61541f069458375fc594cd62
+2,,61545a649458375fc594cd63
+0,Automation of steps from testing to deployment that must be performed in order to deliver a new version of software.,6154604a9458375fc594cd64
+2,DevOps combines tools and practices to ensure rapid and frequent development cycles through automation.,615463ec9458375fc594cd65
+2,"It is a software development approach that combines software development and IT operations. From a cultural perspective, DevOps aims to improve collaboration and communication within the team. From a technical perspective, a fundamental part of DevOps is the automated CI/CD pipeline.",615489a69458375fc594cd66
+0,,6154d4959458375fc594cd67
+2,DevOps is the practice of operations and development engineers working together through the entire development lifecycle. It is a new way of thinking.,615546c89458375fc594cd68
+2,DevOps is a new way of thinking that makes current software development processes a lot more efficient.,615578099458375fc594cd69
+0,cant put it in words,6155af069458375fc594cd6a
+2,Simply put its the emphasize on collaboration between people and processes automation.,615631629458375fc594cd6b
+2,"The culture of the enterprise, the mindset of the people, the art of collaboration, the science of automation.",6156aa949458375fc594cd6c
+0,,6156c10e9458375fc594cd6d
+2,The tools and technologies that can be used to automate processes throughout the software development lifecycle.,61571c859458375fc594cd6e
+0,Pipeline automation,615755f79458375fc594cd6f
+2,The DevOps goal is to make the delivery of value more efficient and effective. There's a cultural change that must happen for a company to be successful with DevOps.,615816989458375fc594cd70
+2,"DevOps is a philosophy that promotes better communication and collaboration between development and IT operations teams.
+DevOps is the adoption of automation and programmable infrastructure deployment and maintenance.",615820d49458375fc594cd71
+2,An approach used to automate development operations (pipeline) and configure infrastructure by usage of code (IaC).,615896689458375fc594cd72
+3,,6159a3ac9458375fc594cd73
+2,DevOps promotes culture of collaboration and empowers organizations with tools and technologies to create more efficient and automated operational processes.,615a00469458375fc594cd74
+2,An approach to how companies control and automate their software development process.,615aade19458375fc594cd75
