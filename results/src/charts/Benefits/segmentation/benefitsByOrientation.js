@@ -33,7 +33,8 @@ export const ORGANIZATIONAL_BENEFITS_BY_ORIENTATION_CHART_DATA = [
     "organizationalBenefits",
     "Mixed"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));
+
 export const PROJECT_BENEFITS_BY_ORIENTATION_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
     BENEFITS_BY_ORIENTATION_DATA.product,
@@ -50,4 +51,4 @@ export const PROJECT_BENEFITS_BY_ORIENTATION_CHART_DATA = [
     "projectBenefits",
     "Mixed"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

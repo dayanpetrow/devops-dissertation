@@ -48,4 +48,4 @@ export const AGILE_RELATION_BY_EXPERIENCE_CHART_DATA = [
     AGILE_RELATION_BY_EXPERIENCE_DATA["More than 20"],
     "More than 20"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

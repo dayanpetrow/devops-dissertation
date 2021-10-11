@@ -40,4 +40,4 @@ export const AGILE_RELATION_BY_SIZE_CHART_DATA = [
     AGILE_RELATION_BY_SIZE_DATA["More than 2000"],
     "More than 2000"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

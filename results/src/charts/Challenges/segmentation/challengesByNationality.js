@@ -38,7 +38,7 @@ export const ORGANIZATIONAL_CHALLENGES_BY_NATIONALITY_CHART_DATA = [
     "organizationalChallenges",
     "Multinational"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));
 
 export const PROJECT_CHALLENGES_BY_NATIONALITY_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
@@ -56,4 +56,4 @@ export const PROJECT_CHALLENGES_BY_NATIONALITY_CHART_DATA = [
     "projectChallenges",
     "Multinational"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

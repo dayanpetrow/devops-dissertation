@@ -29,4 +29,4 @@ export const AGILE_RELATION_BY_ORIENTATION_CHART_DATA = [
     AGILE_RELATION_BY_ORIENTATION_DATA.mixed,
     "Mixed"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

@@ -65,6 +65,10 @@ export const generatePieChartConfig = (data) => {
         content: `
 Responses: ${data.reduce((a, b) => a + b.count, 0)}
 Score: ${data.reduce((a, b) => a + b.count * SCALE_SCORES[b.label], 0)}
+Average: ${(
+          data.reduce((a, b) => a + b.count * SCALE_SCORES[b.label], 0) /
+          data.reduce((a, b) => a + b.count, 0)
+        ).toFixed(2)}
 `,
       },
     },

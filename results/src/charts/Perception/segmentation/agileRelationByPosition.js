@@ -38,4 +38,4 @@ export const AGILE_RELATION_BY_POSITION_CHART_DATA = [
     AGILE_RELATION_BY_POSITION_DATA.other,
     "Other"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

@@ -35,4 +35,4 @@ export const AGILE_RELATION_BY_NATIONALITY_CHART_DATA = [
     AGILE_RELATION_BY_COMPANY_NATIONALITY_DATA.multinational,
     "Multinational"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

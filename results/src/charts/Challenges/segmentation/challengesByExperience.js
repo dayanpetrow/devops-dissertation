@@ -53,7 +53,7 @@ export const ORGANIZATIONAL_CHALLENGES_BY_EXPERIENCE_CHART_DATA = [
     "organizationalChallenges",
     "More than 20"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));
 
 export const PROEJECT_CHALLENGES_BY_EXPERIENCE_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
@@ -81,4 +81,4 @@ export const PROEJECT_CHALLENGES_BY_EXPERIENCE_CHART_DATA = [
     "projectChallenges",
     "More than 20"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));

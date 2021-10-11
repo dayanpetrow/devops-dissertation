@@ -45,7 +45,7 @@ export const ORGANIZATIONAL_BENEFITS_BY_SIZE_CHART_DATA = [
     "organizationalBenefits",
     "More than 2000"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));
 
 export const PROJECT_BENEFITS_BY_SIZE_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
@@ -73,4 +73,4 @@ export const PROJECT_BENEFITS_BY_SIZE_CHART_DATA = [
     "projectBenefits",
     "More than 2000"
   ),
-];
+].sort((a, b) => a.label.localeCompare(b.label));
