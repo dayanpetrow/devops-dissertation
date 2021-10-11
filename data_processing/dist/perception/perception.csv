@@ -3,7 +3,7 @@ PER_AGIREL,PER_DEFINI,_ID
 3,Engineering between development and operations with the purpose to develop ecosystem of  continuous integration and delivery.,61274c229458375fc594cd2a
 0,development operations: mixed sequentially operations for integrations purposes ,61274fd59458375fc594cd2b
 2,Bringing development and operations together and responsible for smooth process while integration and deploying software,61275a509458375fc594cd2c
-NA,Facilitation of CI/CD process,61275b639458375fc594cd2d
+3,Facilitation of CI/CD process,61275b639458375fc594cd2d
 0,Dog,61277bd79458375fc594cd2e
 2,I believe it stands for Development Operations.  It increases an organization's ability to deliver applications and services at high velocity.,61277d539458375fc594cd2f
 0,A role responsible for building and maintaing the software infrastructure using the so called infrastructore as code (IaC). They play a vital part in the release process as well helping the developers deploy their code through CI/CD pipelines.,612786b99458375fc594cd30

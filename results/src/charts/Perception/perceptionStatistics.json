@@ -1,8 +1,9 @@
 {
   "agile": {
+    "DevOps has no relation with Agile": 22,
+    "DevOps aims to replace Agile": 0,
     "DevOps extends Agile": 45,
-    "I don't know": 9,
-    "DevOps has no relation to Agile": 22
+    "I don't know": 9
   },
   "definition": {
     "combination": 3,

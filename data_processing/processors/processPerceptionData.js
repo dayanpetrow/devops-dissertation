@@ -9,14 +9,20 @@ const agileAnswers = {
 };
 
 const processPerceptionStep = (responses) => {
-  const agileRelationStatistics = {};
+  const agileRelationStatistics = {
+    "DevOps has no relation with Agile": 0,
+    "DevOps aims to replace Agile": 0,
+    "DevOps extends Agile": 0,
+    "I don't know": 0,
+  };
+
   const definitionWords = {};
   const commonWords = {};
 
   const perceptionStepData = responses.map((response) => {
-    const { agileRelation = "NA", devOpsDefinition = "" } = response.perception;
+    const { agileRelation = 3, devOpsDefinition = "" } = response.perception;
 
-    const answerValue = agileAnswers[agileRelation] || "NA";
+    const answerValue = agileAnswers[agileRelation] || 3;
     agileRelationStatistics[answerValue] =
       agileRelationStatistics[answerValue] !== undefined
         ? (agileRelationStatistics[answerValue] += 1)
@@ -85,11 +91,11 @@ const processPerceptionStep = (responses) => {
     };
   });
 
-  Object.keys(commonWords).forEach(word => {
+  Object.keys(commonWords).forEach((word) => {
     commonWords[word] = {
       words: commonWords[word],
-      length: commonWords[word].length
-    }
+      length: commonWords[word].length,
+    };
   });
 
   new ObjectsToCsv(perceptionStepData).toDisk(
