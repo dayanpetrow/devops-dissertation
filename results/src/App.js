@@ -11,10 +11,12 @@ import { Perception } from "./charts/Perception/Perception";
 import { Culture } from "./charts/Culture/Culture";
 import { Benefits } from "./charts/Benefits/Benefits";
 import { Challenges } from "./charts/Challenges/Challenges";
+import { Maturity } from "./charts/Maturity/Maturity";
 
 const STEPS = {
   PROFESSIONAL: "Professional",
   PERCEPTION: "Perception",
+  MATURITY: "Maturity",
   CULTURE: "Culture",
   BENEFITS: "Benefits",
   CHALLENGES: "Challenges",
@@ -39,6 +41,7 @@ export const App = () => {
         {activeTab === STEPS.CULTURE && <Culture />}
         {activeTab === STEPS.BENEFITS && <Benefits />}
         {activeTab === STEPS.CHALLENGES && <Challenges />}
+        {activeTab === STEPS.MATURITY && <Maturity />}
       </Main>
     </Wrapper>
   );

@@ -2,7 +2,7 @@ import { Column } from "@ant-design/charts";
 
 import { StepHeader } from "../../components/StepHeader/StepHeader";
 import { ChartHeader } from "../../components/ChartHeader/ChartHeader";
-import { generateColumnChartConfig } from "../utils";
+import { generateColumnChartConfig } from "./utils";
 
 import {
   POSITION_COLUMN_DATA,
