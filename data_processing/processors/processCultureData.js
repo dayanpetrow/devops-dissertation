@@ -40,16 +40,16 @@ const processCultureStep = (responses) => {
 
   const cultureStepData = responses.map((response) => {
     const {
-      multidiscplinaryTeams: CUL_MULTEAM = "0",
-      collaboration: CUL_COLLAB = "0",
-      communication: CUL_COMMUN = "0",
-      initiative: CUL_INITI = "0",
-      technologyStack: CUL_TECKSTA = "0",
-      sharedResponsibility: CUL_SHARESP = "0",
-      failures: CUL_FAILOP = "0",
-      differentPerspective: CUL_DIFPERS = "0",
-      outsideCommunication: CUL_OUTCOMM = "0",
-      teamConnection: CUL_TEAMCON = "0",
+      multidiscplinaryTeams: CUL_MULTEAM = "3",
+      collaboration: CUL_COLLAB = "3",
+      communication: CUL_COMMUN = "3",
+      initiative: CUL_INITI = "3",
+      technologyStack: CUL_TECKSTA = "3",
+      sharedResponsibility: CUL_SHARESP = "3",
+      failures: CUL_FAILOP = "3",
+      differentPerspective: CUL_DIFPERS = "3",
+      outsideCommunication: CUL_OUTCOMM = "3",
+      teamConnection: CUL_TEAMCON = "3",
     } = response.culture;
 
     return {
@@ -73,7 +73,7 @@ const processCultureStep = (responses) => {
     return {
       ...response,
       CUL_TOTAL: total,
-      CUL_AVG: (total/10).toFixed(2),
+      CUL_AVG: (total / 10).toFixed(2),
     };
   });
 

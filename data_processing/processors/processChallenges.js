@@ -50,6 +50,8 @@ const processChallengesStep = (responses) => {
     "./dist/challenges/challengesStatistics.json",
     statisticsJSON
   );
+
+  return challengesStepData;
 };
 
 module.exports = processChallengesStep;

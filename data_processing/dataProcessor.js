@@ -22,14 +22,16 @@ const maturityStepData = processMaturityData(allResponses);
 const cultureStepData = processCultureStep(allResponses);
 
 const perceptionStepData = processPerceptionData(allResponses);
-processBenefitsStep(allResponses);
-processChallengesStep(allResponses);
+const benefitsStepData = processBenefitsStep(allResponses);
+const challengesStepData = processChallengesStep(allResponses);
 
 combineRelevantData({
   professionalStep: professionalStepData,
   cultureStep: cultureStepData,
   maturityStep: maturityStepData,
   perceptionStep: perceptionStepData,
+  benefitsStep: benefitsStepData,
+  challengesStep: challengesStepData,
 });
 
-console.log('Success!')
+console.log("Success!");

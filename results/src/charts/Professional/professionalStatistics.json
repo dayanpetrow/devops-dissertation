@@ -1,0 +1,31 @@
+{
+  "PRO_COMNAT": {
+    "Bulgarian and operates in Bulgaria": 22,
+    "Bulgarian and operates internationally": 28,
+    "Multinational": 26
+  },
+  "PRO_COMORI": { "Product": 28, "Service": 27, "Mixed": 21 },
+  "PRO_COMSIZE": {
+    "1-19": 13,
+    "20-99": 21,
+    "100-249": 15,
+    "250-499": 9,
+    "500-1999": 11,
+    "More than 2000": 7
+  },
+  "PRO_EXP": {
+    "0-2": 9,
+    "3-5": 19,
+    "6-10": 24,
+    "11-20": 16,
+    "More than 20": 8
+  },
+  "PRO_POS": {
+    "Software Development": 33,
+    "Leadership/Management": 20,
+    "Cloud/DevOps": 17,
+    "Testing": 2,
+    "Design": 1,
+    "Other": 3
+  }
+}

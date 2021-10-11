@@ -6,6 +6,8 @@ const combineRelevantData = ({
   cultureStep,
   maturityStep,
   perceptionStep,
+  benefitsStep,
+  challengesStep,
 }) => {
   const cultureHashmap = cultureStep.reduce((hashmap, response) => {
     hashmap[response._ID] = { ...response };
@@ -18,6 +20,16 @@ const combineRelevantData = ({
   }, {});
 
   const perceptionHashmap = perceptionStep.reduce((hashmap, response) => {
+    hashmap[response._ID] = { ...response };
+    return hashmap;
+  }, {});
+
+  const benefitsHashmap = benefitsStep.reduce((hashmap, response) => {
+    hashmap[response._ID] = { ...response };
+    return hashmap;
+  }, {});
+
+  const challengesHashmap = challengesStep.reduce((hashmap, response) => {
     hashmap[response._ID] = { ...response };
     return hashmap;
   }, {});
@@ -39,6 +51,20 @@ const combineRelevantData = ({
 
   const combinedDataJSON = JSON.stringify(combinedData);
   fs.writeFileSync("./dist/combined/combinedDataJSON.json", combinedDataJSON);
+
+  const allData = professionalStep.map((response) => {
+    return {
+      ...response,
+      ...perceptionHashmap[response._ID],
+      ...maturityHashmap[response._ID],
+      ...cultureHashmap[response._ID],
+      ...benefitsHashmap[response._ID],
+      ...challengesHashmap[response._ID],
+    };
+  });
+
+  const allDataJSON = JSON.stringify(allData);
+  fs.writeFileSync("./dist/combined/allDataJSON.json", allDataJSON);
 };
 
 module.exports = combineRelevantData;

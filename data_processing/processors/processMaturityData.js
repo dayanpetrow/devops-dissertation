@@ -105,17 +105,17 @@ const processMaturityStep = (responses) => {
       changeFailPercentage: MAT_CHAFAIL = 0,
       toolchainIncludes: MAT_TOOLINC = [],
       toolchainResponsibility: MAT_TOOLRES = 0,
-      onDemandDeployment: MAT_DEMDEP = 0,
-      businessHoursDeployments: MAT_BISHDEP = 0,
-      commitAutomation: MAT_COMAUTO = 0,
-      failingTests: MAT_FAILTEST = 0,
-      activelyAutomates: MAT_ACTAUT = 0,
-      productionIncidents: MAT_PRODINC = 0,
-      monitoringIssues: MAT_MONISS = 0,
-      monitorMetrics: MAT_MONMET = 0,
-      securityReviews: MAT_SECREW = 0,
-      documentation: MAT_DOCUME = 0,
-      deployableState: MAT_DEPSTA = 0,
+      onDemandDeployment: MAT_DEMDEP = 3,
+      businessHoursDeployments: MAT_BISHDEP = 3,
+      commitAutomation: MAT_COMAUTO = 3,
+      failingTests: MAT_FAILTEST = 3,
+      activelyAutomates: MAT_ACTAUT = 3,
+      productionIncidents: MAT_PRODINC = 3,
+      monitoringIssues: MAT_MONISS = 3,
+      monitorMetrics: MAT_MONMET = 3,
+      securityReviews: MAT_SECREW = 3,
+      documentation: MAT_DOCUME = 3,
+      deployableState: MAT_DEPSTA = 3,
     } = response.maturity;
 
     const MAT_TOOLINC_SCORE = MAT_TOOLINC.reduce(
@@ -170,13 +170,14 @@ const processMaturityStep = (responses) => {
     return {
       ...response,
       MAT_TOTAL: total,
-      MAT_AVG: (total/17).toFixed(2),
+      MAT_AVG: (total / 17).toFixed(2),
     };
   });
 
   const csvData = withTotals.map((response) => {
-    delete response["MAT_TOOLINC"];
-    return response;
+    const copyResponse = { ...response };
+    delete copyResponse["MAT_TOOLINC"];
+    return copyResponse;
   });
 
   new ObjectsToCsv(csvData).toDisk("./dist/maturity/maturity.csv", {
@@ -241,6 +242,15 @@ const processMaturityStep = (responses) => {
         };
       });
 
+    statistics["MAT_TOOLINC_SCORE"] = {
+      ...statistics["MAT_TOOLINC_SCORE"],
+      [response.MAT_TOOLINC_SCORE]: statistics["MAT_TOOLINC_SCORE"][
+        response.MAT_TOOLINC_SCORE
+      ]
+        ? statistics["MAT_TOOLINC_SCORE"][response.MAT_TOOLINC_SCORE] + 1
+        : 1,
+    };
+
     [
       "MAT_DEMDEP",
       "MAT_BISHDEP",
@@ -274,7 +284,6 @@ const processMaturityStep = (responses) => {
         ? statistics["MAT_AVG"][response.MAT_AVG] + 1
         : 1,
     };
-
   });
 
   const maturityStatistics = JSON.stringify(statistics);

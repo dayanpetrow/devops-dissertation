@@ -47,6 +47,8 @@ const processBenefitsStep = (responses) => {
 
   const statisticsJSON = JSON.stringify(hashmap);
   fs.writeFileSync("./dist/benefits/benefitsStatistics.json", statisticsJSON);
+
+  return benefitsStepData;
 };
 
 module.exports = processBenefitsStep;
