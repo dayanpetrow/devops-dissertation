@@ -55,7 +55,7 @@ const processProfessionalStep = (responses) => {
       PRO_COMORI: companyOrientation,
       PRO_COMSIZE: companySize,
       PRO_EXP: experience,
-      PRO_POS: +position > 3 ? 6 : position,
+      PRO_POS: +position > 3 ? "6" : position, // combine Testing, Design and Other
     };
   });
 
