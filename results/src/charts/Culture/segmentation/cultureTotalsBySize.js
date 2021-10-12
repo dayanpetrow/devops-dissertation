@@ -16,6 +16,7 @@ export const CULTURE_TOTALS_BY_SIZE_DATA = {
   "20-99": generateCultureTotalsBySegment(BY_SIZE["20-99"]),
   "100-249": generateCultureTotalsBySegment(BY_SIZE["100-249"]),
   "250-499": generateCultureTotalsBySegment(BY_SIZE["250-499"]),
+  "500-1999": generateCultureTotalsBySegment(BY_SIZE["500-1999"]),
   "More than 2000": generateCultureTotalsBySegment(BY_SIZE["More than 2000"]),
 };
 
@@ -35,6 +36,10 @@ export const CULTURE_TOTALS_BY_SIZE_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
     CULTURE_TOTALS_BY_SIZE_DATA["250-499"],
     "250-499"
+  ),
+  ...generateGroupedChartDataBySegment(
+    CULTURE_TOTALS_BY_SIZE_DATA["500-1999"],
+    "500-1999"
   ),
   ...generateGroupedChartDataBySegment(
     CULTURE_TOTALS_BY_SIZE_DATA["More than 2000"],
@@ -82,6 +87,17 @@ const TOTAL_250_499_SCORE = Object.keys(
 );
 export const AVERAGE_250_499_SCORE =
   TOTAL_250_499_SCORE / BY_SIZE["250-499"].length;
+
+// 500-1999
+const TOTAL_500_1999_SCORE = Object.keys(
+  CULTURE_TOTALS_BY_SIZE_DATA["500-1999"]
+).reduce(
+  (total, score) =>
+    total + +score * CULTURE_TOTALS_BY_SIZE_DATA["500-1999"][score],
+  0
+);
+export const AVERAGE_500_1999_SCORE =
+  TOTAL_500_1999_SCORE / BY_SIZE["500-1999"].length;
 
 // More than 2000
 const TOTAL_MORE_2000_SCORE = Object.keys(

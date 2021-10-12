@@ -1,4 +1,4 @@
-import { Column } from "@ant-design/charts";
+import { Column, Bar } from "@ant-design/charts";
 
 import { StepHeader } from "../../components/StepHeader/StepHeader";
 import { ChartHeader } from "../../components/ChartHeader/ChartHeader";
@@ -11,6 +11,11 @@ import {
   ORIENTATION_COLUMN_DATA,
   SIZE_COLUMN_DATA,
 } from "./chartData";
+
+// segmentation
+import { generateGroupedBarChartConfig } from "./segmentation/_utils";
+import { POSITION_BY_EXPERIENCE_CHART_DATA } from "./segmentation/positionByExperience";
+import { EXPERIENCE_BY_POSITION_CHART_DATA } from "./segmentation/experienceByPosition";
 
 export const Professional = () => {
   return (
@@ -46,6 +51,20 @@ export const Professional = () => {
       <div className={"chart-wrapper"}>
         <ChartHeader title={"Company Size"} />
         <Column {...generateColumnChartConfig(SIZE_COLUMN_DATA, "Size")} />
+      </div>
+
+      <div className={"chart-wrapper"}>
+        <ChartHeader title={"Position By Experience"} />
+        <Bar
+          {...generateGroupedBarChartConfig(POSITION_BY_EXPERIENCE_CHART_DATA)}
+        />
+      </div>
+
+      <div className={"chart-wrapper"}>
+        <ChartHeader title={"Experience By Position"} />
+        <Bar
+          {...generateGroupedBarChartConfig(EXPERIENCE_BY_POSITION_CHART_DATA)}
+        />
       </div>
     </div>
   );

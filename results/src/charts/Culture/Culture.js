@@ -27,6 +27,7 @@ import {
   AVERAGE_20_99_SCORE,
   AVERAGE_100_249_SCORE,
   AVERAGE_250_499_SCORE,
+  AVERAGE_500_1999_SCORE,
   AVERAGE_MORE_2000_SCORE,
 } from "./segmentation/cultureTotalsBySize";
 
@@ -141,6 +142,10 @@ export const Culture = () => {
           <Col span={4} align={"middle"}>
             <h4>250-499</h4>
             <div>Average: {AVERAGE_250_499_SCORE.toFixed(2)}</div>
+          </Col>
+          <Col span={4} align={"middle"}>
+            <h4>500-1999</h4>
+            <div>Average: {AVERAGE_500_1999_SCORE.toFixed(2)}</div>
           </Col>
           <Col span={4} align={"middle"}>
             <h4>More than 2000</h4>
