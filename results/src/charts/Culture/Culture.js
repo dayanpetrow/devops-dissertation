@@ -31,6 +31,8 @@ import {
   AVERAGE_MORE_2000_SCORE,
 } from "./segmentation/cultureTotalsBySize";
 
+import * as questionAveragesByNationality from "./segmentation/questionAveragesByNationality";
+
 export const Culture = () => {
   return (
     <>

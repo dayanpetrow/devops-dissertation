@@ -37,6 +37,8 @@ import {
   AVERAGE_TOTAL_MORE_2000,
 } from "./totals/maturityTotalsBySize";
 
+import * as questionAverages from "./questionCharts/questionAverages";
+
 export const Maturity = () => {
   return (
     <>

@@ -1,6 +1,6 @@
 import data from "./allDataJSON.json";
 
-/** SEGMENTATION BY NATIONALITY */
+/** SEGMENTATION BY COMPANY NATIONALITY */
 const NATIONALITY = {
   1: "Bulgarian and operates in Bulgaria",
   2: "Bulgarian and operates internationally",
@@ -15,6 +15,7 @@ export const BY_COMPANY_NATIONALITY = {
   multinational: data.filter((response) => response.PRO_COMNAT === "3"),
 };
 
+/** SEGMENTATION BY JOB POSITION */
 const POSITIONS = {
   1: "Software Development",
   2: "Cloud/DevOps",
@@ -28,14 +29,10 @@ export const BY_POSITION = {
   software_development: data.filter((response) => response.PRO_POS === "1"),
   cloud_devops: data.filter((response) => response.PRO_POS === "2"),
   leadership_management: data.filter((response) => response.PRO_POS === "3"),
-  other: data.filter(
-    (response) =>
-      response.PRO_POS !== "1" &&
-      response.PRO_POS !== "2" &&
-      response.PRO_POS !== "3"
-  ),
+  other: data.filter((response) => response.PRO_POS === "6"), // design, testing and other are combined within the data processor service
 };
 
+/** SEGMENTATION BY PROFESSIONAL EXPERIENCE */
 const EXPERIENCE = {
   1: "0-2",
   2: "3-5",
@@ -52,6 +49,7 @@ export const BY_EXPERIENCE = {
   "More than 20": data.filter((response) => response.PRO_EXP === "5"),
 };
 
+/** SEGMENTATION BY COMPANY SIZE */
 const SIZE = {
   1: "1-19",
   2: "20-99",
@@ -70,6 +68,7 @@ export const BY_SIZE = {
   "More than 2000": data.filter((response) => response.PRO_COMSIZE === "6"),
 };
 
+/** SEGMENTATION BY COMPANY ORIENTATION */
 const ORIENTATION = {
   1: "Service",
   2: "Product",
