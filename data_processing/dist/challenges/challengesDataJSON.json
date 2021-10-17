@@ -1,1 +1,800 @@
-[{"_ID":"6124f5f49458375fc594cd29","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Changing technology stack"],"CHA_OTHER":""},{"_ID":"61274c229458375fc594cd2a","CHA_ORGA":["Upskilling current staff","Recruitment","Transition to DevOps way of working"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence"],"CHA_OTHER":""},{"_ID":"61274fd59458375fc594cd2b","CHA_ORGA":["Recruitment","Transition to DevOps way of working","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Changing technology stack","Complexity of the tools and technologies","Too many tools in existence"],"CHA_OTHER":""},{"_ID":"61275a509458375fc594cd2c","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Upskilling current staff","Changing technology stack"],"CHA_TEAM":["Lack of documentation/resources","Complexity of the tools and technologies","Changing technology stack"],"CHA_OTHER":""},{"_ID":"61275b639458375fc594cd2d","CHA_ORGA":["Changing technology stack"],"CHA_TEAM":["Coping with changing requirements"],"CHA_OTHER":""},{"_ID":"61277bd79458375fc594cd2e","CHA_ORGA":["Changing technology stack"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"61277d539458375fc594cd2f","CHA_ORGA":["Upskilling current staff","Changing technology stack","Transition to DevOps way of working"],"CHA_TEAM":["Coping with changing requirements","Too many tools in existence","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"612786b99458375fc594cd30","CHA_ORGA":["Recruitment","Changing technology stack","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Coping with changing requirements","Changing technology stack"],"CHA_OTHER":""},{"_ID":"612786bc9458375fc594cd31","CHA_ORGA":["Upskilling current staff","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"612789439458375fc594cd32","CHA_ORGA":["Recruitment"],"CHA_TEAM":["Coping with changing requirements","Too many tools in existence"],"CHA_OTHER":""},{"_ID":"61278dac9458375fc594cd33","CHA_ORGA":["Coping with cultural changes","Upskilling current staff","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Changing technology stack","Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"612799ba9458375fc594cd34","CHA_ORGA":["Changing technology stack","Transitioning legacy infrastructure/projects to DevOps","Upskilling current staff"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources","Changing technology stack"],"CHA_OTHER":""},{"_ID":"6127ad9b9458375fc594cd35","CHA_ORGA":[],"CHA_TEAM":[],"CHA_OTHER":""},{"_ID":"6127c7769458375fc594cd36","CHA_ORGA":["Recruitment","Transitioning legacy infrastructure/projects to DevOps","Upskilling current staff"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Coping with changing requirements"],"CHA_OTHER":""},{"_ID":"6127d3ca9458375fc594cd37","CHA_ORGA":["Transition to DevOps way of working"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"6127d5629458375fc594cd38","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Transition to DevOps way of working","Changing technology stack"],"CHA_TEAM":[],"CHA_OTHER":""},{"_ID":"6127de859458375fc594cd39","CHA_ORGA":["Recruitment","Transition to DevOps way of working"],"CHA_TEAM":["Lack of documentation/resources"],"CHA_OTHER":"Many companies think of DevOps as a position or role. So-called DevOps engineers exist, and their knowledge is focused on setting up tools and configuring integrations. Many teams never try to adopt DevOps as a culture, and many developers never want to take responsibility of the lifecycle of their product. And this is, incidentally, what DevOps is meant to be about."},{"_ID":"6127e66e9458375fc594cd3a","CHA_ORGA":["Upskilling current staff","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"61287edb9458375fc594cd3b","CHA_ORGA":["Recruitment"],"CHA_TEAM":["Too many tools in existence"],"CHA_OTHER":""},{"_ID":"612895539458375fc594cd3c","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Upskilling current staff","Recruitment"],"CHA_TEAM":["Lack of documentation/resources","Complexity of the tools and technologies","Coping with changing requirements"],"CHA_OTHER":""},{"_ID":"6128f9d99458375fc594cd3d","CHA_ORGA":["Transition to DevOps way of working"],"CHA_TEAM":["Coping with changing requirements"],"CHA_OTHER":"No"},{"_ID":"612cbca09458375fc594cd3e","CHA_ORGA":["Changing technology stack","Transition to DevOps way of working","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Too many tools in existence","Coping with changing requirements","Changing technology stack"],"CHA_OTHER":""},{"_ID":"612cbe6a9458375fc594cd3f","CHA_ORGA":["Upskilling current staff","Transitioning legacy infrastructure/projects to DevOps","Transition to DevOps way of working"],"CHA_TEAM":["Lack of documentation/resources","Complexity of the tools and technologies","Too many tools in existence"],"CHA_OTHER":" "},{"_ID":"612cc5da9458375fc594cd40","CHA_ORGA":["Transition to DevOps way of working"],"CHA_TEAM":["Coping with changing requirements"],"CHA_OTHER":""},{"_ID":"612d61339458375fc594cd41","CHA_ORGA":["Upskilling current staff","Changing technology stack","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Lack of documentation/resources","Coping with changing requirements","Changing technology stack"],"CHA_OTHER":""},{"_ID":"612dd9a19458375fc594cd42","CHA_ORGA":["Recruitment","Upskilling current staff","Transition to DevOps way of working"],"CHA_TEAM":["Changing technology stack","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"613e70ca9458375fc594cd44","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":[],"CHA_OTHER":""},{"_ID":"613eeb559458375fc594cd45","CHA_ORGA":["Recruitment","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Too many tools in existence","Complexity of the tools and technologies"],"CHA_OTHER":"Recruitment, Recruitment, Recruitment!\nDevOps engineers become very very expensive!"},{"_ID":"613f24d59458375fc594cd46","CHA_ORGA":["Recruitment","Changing technology stack","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence"],"CHA_OTHER":""},{"_ID":"613f2d649458375fc594cd47","CHA_ORGA":["Recruitment","Coping with cultural changes"],"CHA_TEAM":["Changing technology stack","Too many tools in existence"],"CHA_OTHER":"Lack of understanding what DevOps is by developers who (if stuck) simply transfer a task to someone from the DevOps team."},{"_ID":"613f32849458375fc594cd48","CHA_ORGA":["Recruitment"],"CHA_TEAM":["Changing technology stack"],"CHA_OTHER":"NOPE"},{"_ID":"613f69269458375fc594cd49","CHA_ORGA":["Upskilling current staff","Transitioning legacy infrastructure/projects to DevOps","Recruitment"],"CHA_TEAM":["Too many tools in existence","Lack of documentation/resources","Coping with changing requirements"],"CHA_OTHER":""},{"_ID":"613fb8569458375fc594cd4a","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Transition to DevOps way of working","Changing technology stack"],"CHA_TEAM":["Too many tools in existence","Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"61404f4b9458375fc594cd4b","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies","Changing technology stack"],"CHA_OTHER":""},{"_ID":"614831aa9458375fc594cd4c","CHA_ORGA":["Recruitment","Coping with cultural changes","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"61486a999458375fc594cd4d","CHA_ORGA":["Recruitment","Transitioning legacy infrastructure/projects to DevOps","Changing technology stack"],"CHA_TEAM":["Too many tools in existence","Lack of documentation/resources","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"61487beb9458375fc594cd4e","CHA_ORGA":["Upskilling current staff","Recruitment","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Lack of documentation/resources","Too many tools in existence","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"6149836f9458375fc594cd4f","CHA_ORGA":["Upskilling current staff","Recruitment","Changing technology stack"],"CHA_TEAM":["Too many tools in existence","Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"614a0ed39458375fc594cd50","CHA_ORGA":["Upskilling current staff","Recruitment","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"614b474e9458375fc594cd51","CHA_ORGA":["Upskilling current staff","Recruitment","Transition to DevOps way of working"],"CHA_TEAM":["Too many tools in existence","Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"614c6d999458375fc594cd52","CHA_ORGA":["Upskilling current staff","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"614c9a279458375fc594cd53","CHA_ORGA":["Coping with cultural changes","Transition to DevOps way of working"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"614d8b0a9458375fc594cd54","CHA_ORGA":["Upskilling current staff","Recruitment"],"CHA_TEAM":["Lack of documentation/resources","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"614da04c9458375fc594cd55","CHA_ORGA":["Recruitment","Upskilling current staff","Coping with cultural changes"],"CHA_TEAM":["Coping with changing requirements"],"CHA_OTHER":""},{"_ID":"614f25069458375fc594cd56","CHA_ORGA":["Upskilling current staff","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Coping with changing requirements","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"614f39879458375fc594cd57","CHA_ORGA":["Upskilling current staff","Recruitment","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Lack of documentation/resources","Coping with changing requirements","Changing technology stack"],"CHA_OTHER":""},{"_ID":"614f4e239458375fc594cd58","CHA_ORGA":["Transition to DevOps way of working","Recruitment","Upskilling current staff"],"CHA_TEAM":["Lack of documentation/resources","Coping with changing requirements"],"CHA_OTHER":""},{"_ID":"6151ae659458375fc594cd59","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Changing technology stack"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"6151d5369458375fc594cd5a","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":"Lack of understanding & cooperation from clients. Clients willing to squeeze out every penny from infrastructure"},{"_ID":"6151ed699458375fc594cd5b","CHA_ORGA":["Transition to DevOps way of working"],"CHA_TEAM":["Coping with changing requirements","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"6152190e9458375fc594cd5c","CHA_ORGA":["Transition to DevOps way of working","Upskilling current staff","Recruitment"],"CHA_TEAM":["Changing technology stack"],"CHA_OTHER":""},{"_ID":"6152315b9458375fc594cd5d","CHA_ORGA":["Coping with cultural changes","Transition to DevOps way of working","Recruitment"],"CHA_TEAM":["Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"615291a69458375fc594cd5e","CHA_ORGA":["Upskilling current staff","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"6152d00a9458375fc594cd5f","CHA_ORGA":["Upskilling current staff","Recruitment","Transition to DevOps way of working"],"CHA_TEAM":["Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"6152f7cd9458375fc594cd60","CHA_ORGA":["Changing technology stack","Upskilling current staff"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"61531e8c9458375fc594cd61","CHA_ORGA":["Transition to DevOps way of working","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"61541f069458375fc594cd62","CHA_ORGA":["Coping with cultural changes","Upskilling current staff","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"61545a649458375fc594cd63","CHA_ORGA":["Recruitment","Coping with cultural changes","Upskilling current staff"],"CHA_TEAM":["Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"6154604a9458375fc594cd64","CHA_ORGA":["Upskilling current staff","Recruitment","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Changing technology stack"],"CHA_OTHER":""},{"_ID":"615463ec9458375fc594cd65","CHA_ORGA":["Transition to DevOps way of working","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"615489a69458375fc594cd66","CHA_ORGA":["Transition to DevOps way of working","Recruitment"],"CHA_TEAM":["Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"6154d4959458375fc594cd67","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"615546c89458375fc594cd68","CHA_ORGA":["Transition to DevOps way of working"],"CHA_TEAM":["Complexity of the tools and technologies","Changing technology stack"],"CHA_OTHER":""},{"_ID":"615578099458375fc594cd69","CHA_ORGA":["Transition to DevOps way of working","Upskilling current staff"],"CHA_TEAM":["Complexity of the tools and technologies","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"6155af069458375fc594cd6a","CHA_ORGA":["Recruitment","Transition to DevOps way of working"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"615631629458375fc594cd6b","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Transition to DevOps way of working"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"6156aa949458375fc594cd6c","CHA_ORGA":["Coping with cultural changes","Upskilling current staff","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"6156c10e9458375fc594cd6d","CHA_ORGA":["Recruitment","Upskilling current staff"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"61571c859458375fc594cd6e","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps","Transition to DevOps way of working"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"615755f79458375fc594cd6f","CHA_ORGA":["Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":""},{"_ID":"615816989458375fc594cd70","CHA_ORGA":["Transition to DevOps way of working","Coping with cultural changes","Upskilling current staff"],"CHA_TEAM":["Lack of documentation/resources","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"615820d49458375fc594cd71","CHA_ORGA":["Coping with cultural changes","Transition to DevOps way of working","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Lack of documentation/resources","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"615896689458375fc594cd72","CHA_ORGA":["Upskilling current staff","Recruitment"],"CHA_TEAM":["Too many tools in existence","Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"6159a3ac9458375fc594cd73","CHA_ORGA":["Upskilling current staff","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"615a00469458375fc594cd74","CHA_ORGA":["Upskilling current staff","Recruitment"],"CHA_TEAM":["Complexity of the tools and technologies"],"CHA_OTHER":""},{"_ID":"615aade19458375fc594cd75","CHA_ORGA":["Transition to DevOps way of working","Transitioning legacy infrastructure/projects to DevOps"],"CHA_TEAM":["Complexity of the tools and technologies","Too many tools in existence","Lack of documentation/resources"],"CHA_OTHER":""}]
+[
+  {
+    "_ID": "6124f5f49458375fc594cd29",
+    "CHA_ORGA": ["Transitioning legacy infrastructure/projects to DevOps"],
+    "CHA_TEAM": ["Changing technology stack"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61274c229458375fc594cd2a",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61274fd59458375fc594cd2b",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Transition to DevOps way of working",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Changing technology stack",
+      "Complexity of the tools and technologies",
+      "Too many tools in existence"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61275a509458375fc594cd2c",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Upskilling current staff",
+      "Changing technology stack"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Complexity of the tools and technologies",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61275b639458375fc594cd2d",
+    "CHA_ORGA": ["Changing technology stack"],
+    "CHA_TEAM": ["Coping with changing requirements"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61277bd79458375fc594cd2e",
+    "CHA_ORGA": ["Changing technology stack"],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61277d539458375fc594cd2f",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Changing technology stack",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": [
+      "Coping with changing requirements",
+      "Too many tools in existence",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612786b99458375fc594cd30",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Changing technology stack",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Coping with changing requirements",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612786bc9458375fc594cd31",
+    "CHA_ORGA": ["Upskilling current staff", "Recruitment"],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612789439458375fc594cd32",
+    "CHA_ORGA": ["Recruitment"],
+    "CHA_TEAM": [
+      "Coping with changing requirements",
+      "Too many tools in existence"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61278dac9458375fc594cd33",
+    "CHA_ORGA": [
+      "Coping with cultural changes",
+      "Upskilling current staff",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Changing technology stack",
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612799ba9458375fc594cd34",
+    "CHA_ORGA": [
+      "Changing technology stack",
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Upskilling current staff"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6127ad9b9458375fc594cd35",
+    "CHA_ORGA": [],
+    "CHA_TEAM": [],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6127c7769458375fc594cd36",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Upskilling current staff"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Coping with changing requirements"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6127d3ca9458375fc594cd37",
+    "CHA_ORGA": ["Transition to DevOps way of working"],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6127d5629458375fc594cd38",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Transition to DevOps way of working",
+      "Changing technology stack"
+    ],
+    "CHA_TEAM": [],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6127de859458375fc594cd39",
+    "CHA_ORGA": ["Recruitment", "Transition to DevOps way of working"],
+    "CHA_TEAM": ["Lack of documentation/resources"],
+    "CHA_OTHER": "Many companies think of DevOps as a position or role. So-called DevOps engineers exist, and their knowledge is focused on setting up tools and configuring integrations. Many teams never try to adopt DevOps as a culture, and many developers never want to take responsibility of the lifecycle of their product. And this is, incidentally, what DevOps is meant to be about."
+  },
+  {
+    "_ID": "6127e66e9458375fc594cd3a",
+    "CHA_ORGA": ["Upskilling current staff", "Recruitment"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61287edb9458375fc594cd3b",
+    "CHA_ORGA": ["Recruitment"],
+    "CHA_TEAM": ["Too many tools in existence"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612895539458375fc594cd3c",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Upskilling current staff",
+      "Recruitment"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Complexity of the tools and technologies",
+      "Coping with changing requirements"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6128f9d99458375fc594cd3d",
+    "CHA_ORGA": ["Transition to DevOps way of working"],
+    "CHA_TEAM": ["Coping with changing requirements"],
+    "CHA_OTHER": "No"
+  },
+  {
+    "_ID": "612cbca09458375fc594cd3e",
+    "CHA_ORGA": [
+      "Changing technology stack",
+      "Transition to DevOps way of working",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Coping with changing requirements",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612cbe6a9458375fc594cd3f",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Complexity of the tools and technologies",
+      "Too many tools in existence"
+    ],
+    "CHA_OTHER": " "
+  },
+  {
+    "_ID": "612cc5da9458375fc594cd40",
+    "CHA_ORGA": ["Transition to DevOps way of working"],
+    "CHA_TEAM": ["Coping with changing requirements"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612d61339458375fc594cd41",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Changing technology stack",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Coping with changing requirements",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "612dd9a19458375fc594cd42",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Upskilling current staff",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": [
+      "Changing technology stack",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "613e70ca9458375fc594cd44",
+    "CHA_ORGA": ["Transitioning legacy infrastructure/projects to DevOps"],
+    "CHA_TEAM": [],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "613eeb559458375fc594cd45",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": "Recruitment, Recruitment, Recruitment!\nDevOps engineers become very very expensive!"
+  },
+  {
+    "_ID": "613f24d59458375fc594cd46",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Changing technology stack",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "613f2d649458375fc594cd47",
+    "CHA_ORGA": ["Recruitment", "Coping with cultural changes"],
+    "CHA_TEAM": ["Changing technology stack", "Too many tools in existence"],
+    "CHA_OTHER": "Lack of understanding what DevOps is by developers who (if stuck) simply transfer a task to someone from the DevOps team."
+  },
+  {
+    "_ID": "613f32849458375fc594cd48",
+    "CHA_ORGA": ["Recruitment"],
+    "CHA_TEAM": ["Changing technology stack"],
+    "CHA_OTHER": "NOPE"
+  },
+  {
+    "_ID": "613f69269458375fc594cd49",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Recruitment"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Lack of documentation/resources",
+      "Coping with changing requirements"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "613fb8569458375fc594cd4a",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Transition to DevOps way of working",
+      "Changing technology stack"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61404f4b9458375fc594cd4b",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Recruitment"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614831aa9458375fc594cd4c",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Coping with cultural changes",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61486a999458375fc594cd4d",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Changing technology stack"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Lack of documentation/resources",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61487beb9458375fc594cd4e",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Too many tools in existence",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6149836f9458375fc594cd4f",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Changing technology stack"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614a0ed39458375fc594cd50",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614b474e9458375fc594cd51",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614c6d999458375fc594cd52",
+    "CHA_ORGA": ["Upskilling current staff", "Recruitment"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614c9a279458375fc594cd53",
+    "CHA_ORGA": [
+      "Coping with cultural changes",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614d8b0a9458375fc594cd54",
+    "CHA_ORGA": ["Upskilling current staff", "Recruitment"],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614da04c9458375fc594cd55",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Upskilling current staff",
+      "Coping with cultural changes"
+    ],
+    "CHA_TEAM": ["Coping with changing requirements"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614f25069458375fc594cd56",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Coping with changing requirements",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614f39879458375fc594cd57",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Coping with changing requirements",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "614f4e239458375fc594cd58",
+    "CHA_ORGA": [
+      "Transition to DevOps way of working",
+      "Recruitment",
+      "Upskilling current staff"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Coping with changing requirements"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6151ae659458375fc594cd59",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Changing technology stack"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6151d5369458375fc594cd5a",
+    "CHA_ORGA": ["Transitioning legacy infrastructure/projects to DevOps"],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": "Lack of understanding & cooperation from clients. Clients willing to squeeze out every penny from infrastructure"
+  },
+  {
+    "_ID": "6151ed699458375fc594cd5b",
+    "CHA_ORGA": ["Transition to DevOps way of working"],
+    "CHA_TEAM": [
+      "Coping with changing requirements",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6152190e9458375fc594cd5c",
+    "CHA_ORGA": [
+      "Transition to DevOps way of working",
+      "Upskilling current staff",
+      "Recruitment"
+    ],
+    "CHA_TEAM": ["Changing technology stack"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6152315b9458375fc594cd5d",
+    "CHA_ORGA": [
+      "Coping with cultural changes",
+      "Transition to DevOps way of working",
+      "Recruitment"
+    ],
+    "CHA_TEAM": ["Lack of documentation/resources"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615291a69458375fc594cd5e",
+    "CHA_ORGA": ["Upskilling current staff", "Recruitment"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6152d00a9458375fc594cd5f",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6152f7cd9458375fc594cd60",
+    "CHA_ORGA": ["Changing technology stack", "Upskilling current staff"],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61531e8c9458375fc594cd61",
+    "CHA_ORGA": ["Transition to DevOps way of working", "Recruitment"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61541f069458375fc594cd62",
+    "CHA_ORGA": [
+      "Coping with cultural changes",
+      "Upskilling current staff",
+      "Recruitment"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61545a649458375fc594cd63",
+    "CHA_ORGA": [
+      "Recruitment",
+      "Coping with cultural changes",
+      "Upskilling current staff"
+    ],
+    "CHA_TEAM": ["Lack of documentation/resources"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6154604a9458375fc594cd64",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Recruitment",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615463ec9458375fc594cd65",
+    "CHA_ORGA": [
+      "Transition to DevOps way of working",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615489a69458375fc594cd66",
+    "CHA_ORGA": ["Transition to DevOps way of working", "Recruitment"],
+    "CHA_TEAM": ["Lack of documentation/resources"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6154d4959458375fc594cd67",
+    "CHA_ORGA": ["Transitioning legacy infrastructure/projects to DevOps"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615546c89458375fc594cd68",
+    "CHA_ORGA": ["Transition to DevOps way of working"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Changing technology stack"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615578099458375fc594cd69",
+    "CHA_ORGA": [
+      "Transition to DevOps way of working",
+      "Upskilling current staff"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6155af069458375fc594cd6a",
+    "CHA_ORGA": ["Recruitment", "Transition to DevOps way of working"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615631629458375fc594cd6b",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6156aa949458375fc594cd6c",
+    "CHA_ORGA": [
+      "Coping with cultural changes",
+      "Upskilling current staff",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6156c10e9458375fc594cd6d",
+    "CHA_ORGA": ["Recruitment", "Upskilling current staff"],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "61571c859458375fc594cd6e",
+    "CHA_ORGA": [
+      "Transitioning legacy infrastructure/projects to DevOps",
+      "Transition to DevOps way of working"
+    ],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615755f79458375fc594cd6f",
+    "CHA_ORGA": ["Transitioning legacy infrastructure/projects to DevOps"],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615816989458375fc594cd70",
+    "CHA_ORGA": [
+      "Transition to DevOps way of working",
+      "Coping with cultural changes",
+      "Upskilling current staff"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615820d49458375fc594cd71",
+    "CHA_ORGA": [
+      "Coping with cultural changes",
+      "Transition to DevOps way of working",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Lack of documentation/resources",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615896689458375fc594cd72",
+    "CHA_ORGA": ["Upskilling current staff", "Recruitment"],
+    "CHA_TEAM": [
+      "Too many tools in existence",
+      "Complexity of the tools and technologies"
+    ],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "6159a3ac9458375fc594cd73",
+    "CHA_ORGA": [
+      "Upskilling current staff",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615a00469458375fc594cd74",
+    "CHA_ORGA": ["Upskilling current staff", "Recruitment"],
+    "CHA_TEAM": ["Complexity of the tools and technologies"],
+    "CHA_OTHER": ""
+  },
+  {
+    "_ID": "615aade19458375fc594cd75",
+    "CHA_ORGA": [
+      "Transition to DevOps way of working",
+      "Transitioning legacy infrastructure/projects to DevOps"
+    ],
+    "CHA_TEAM": [
+      "Complexity of the tools and technologies",
+      "Too many tools in existence",
+      "Lack of documentation/resources"
+    ],
+    "CHA_OTHER": ""
+  }
+]

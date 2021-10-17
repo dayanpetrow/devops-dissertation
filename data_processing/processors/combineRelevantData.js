@@ -1,5 +1,6 @@
 const ObjectsToCsv = require("objects-to-csv");
 const fs = require("fs");
+const segmentData = require("./segmentData");
 
 const combineRelevantData = ({
   professionalStep,
@@ -65,6 +66,8 @@ const combineRelevantData = ({
 
   const allDataJSON = JSON.stringify(allData);
   fs.writeFileSync("./dist/combined/allDataJSON.json", allDataJSON);
+
+  segmentData(allData);
 };
 
 module.exports = combineRelevantData;

@@ -1,1 +1,932 @@
-[{"_ID":"6124f5f49458375fc594cd29","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Rapid delivery cycle"],"BEN_PROJ":[],"BEN_OTHER":""},{"_ID":"61274c229458375fc594cd2a","BEN_ORGA":["Rapid delivery cycle","Scalability","Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Risk mitigation","Improved incident handling"],"BEN_OTHER":""},{"_ID":"61274fd59458375fc594cd2b","BEN_ORGA":["Quality of products and services provided","Improved customer experience","Competitive advantage"],"BEN_PROJ":["Higher productivity","Rapid delivery cycle","Scalability"],"BEN_OTHER":""},{"_ID":"61275a509458375fc594cd2c","BEN_ORGA":["Operational efficiency","Rapid delivery cycle","Quality of products and services provided"],"BEN_PROJ":["Higher productivity","Automation of repetitive work, focus on development","Improved incident handling"],"BEN_OTHER":""},{"_ID":"61275b639458375fc594cd2d","BEN_ORGA":["Faster time-to-market","Operational efficiency","Rapid delivery cycle"],"BEN_PROJ":["Higher productivity","Automation of repetitive work, focus on development","Rolling back to previous build versions"],"BEN_OTHER":""},{"_ID":"61277bd79458375fc594cd2e","BEN_ORGA":["Ability to develop software faster"],"BEN_PROJ":["Improved communication & collaboration between team members"],"BEN_OTHER":"its like presales talking both technical and customer\nIn this case help non-technical developers to talk to the technical people;."},{"_ID":"61277d539458375fc594cd2f","BEN_ORGA":["Faster time-to-market","Operational efficiency","Quality of products and services provided"],"BEN_PROJ":["Higher motivation and engagement","Higher productivity"],"BEN_OTHER":""},{"_ID":"612786b99458375fc594cd30","BEN_ORGA":["Cost reduction","Scalability","Rapid delivery cycle"],"BEN_PROJ":["Reduce infrastructure problems","Automation of repetitive work, focus on development","Improved deployment frequency"],"BEN_OTHER":""},{"_ID":"612786bc9458375fc594cd31","BEN_ORGA":["Quality of products and services provided"],"BEN_PROJ":["Higher motivation and engagement","Higher productivity","Reduce infrastructure problems"],"BEN_OTHER":""},{"_ID":"612789439458375fc594cd32","BEN_ORGA":["Ability to develop software faster","Scalability","Operational efficiency"],"BEN_PROJ":[],"BEN_OTHER":""},{"_ID":"61278dac9458375fc594cd33","BEN_ORGA":["Rapid delivery cycle","Responsiveness to customer needs","Faster time-to-market"],"BEN_PROJ":["Improved incident handling","Reduce infrastructure problems","Higher productivity"],"BEN_OTHER":""},{"_ID":"612799ba9458375fc594cd34","BEN_ORGA":["Faster time-to-market","Operational efficiency","Rapid delivery cycle"],"BEN_PROJ":["Reduce infrastructure problems","Scalability","Risk mitigation"],"BEN_OTHER":""},{"_ID":"6127ad9b9458375fc594cd35","BEN_ORGA":[],"BEN_PROJ":[],"BEN_OTHER":""},{"_ID":"6127c7769458375fc594cd36","BEN_ORGA":["Quality of products and services provided","Rapid delivery cycle","Scalability"],"BEN_PROJ":["Reduce infrastructure problems","Improved deployment frequency","Improved code quality"],"BEN_OTHER":""},{"_ID":"6127d3ca9458375fc594cd37","BEN_ORGA":["Quality of products and services provided","Quantity of products and services provided"],"BEN_PROJ":["Risk mitigation","Lower failure rate of new releases","Improved code quality"],"BEN_OTHER":""},{"_ID":"6127d5629458375fc594cd38","BEN_ORGA":["Scalability","Rapid delivery cycle","Quicker innovation"],"BEN_PROJ":["Reduce infrastructure problems","Scalability","Improved deployment frequency"],"BEN_OTHER":""},{"_ID":"6127de859458375fc594cd39","BEN_ORGA":["Faster time-to-market","Ability to develop software faster","Quality of products and services provided"],"BEN_PROJ":["Higher productivity","Higher motivation and engagement","Improved code quality"],"BEN_OTHER":"Happy developers"},{"_ID":"6127e66e9458375fc594cd3a","BEN_ORGA":["Competitive advantage","Faster time-to-market","Rapid delivery cycle"],"BEN_PROJ":["Higher productivity","Higher motivation and engagement"],"BEN_OTHER":""},{"_ID":"61287edb9458375fc594cd3b","BEN_ORGA":["Operational efficiency","Cost reduction","Scalability"],"BEN_PROJ":["Reduce infrastructure problems","Improved code quality","Higher productivity"],"BEN_OTHER":""},{"_ID":"612895539458375fc594cd3c","BEN_ORGA":["Competitive advantage","Faster time-to-market","Quality of products and services provided"],"BEN_PROJ":["Improved communication & collaboration between team members","Continuous customer feedback","Sense of shared ownership and responsibility  between team members"],"BEN_OTHER":""},{"_ID":"6128f9d99458375fc594cd3d","BEN_ORGA":["Operational efficiency","Cost reduction","Scalability"],"BEN_PROJ":["Reduce infrastructure problems","Automation of repetitive work, focus on development","Improved incident handling"],"BEN_OTHER":"Security"},{"_ID":"612cbca09458375fc594cd3e","BEN_ORGA":["Competitive advantage","Faster time-to-market","Improved customer experience"],"BEN_PROJ":["Improved code quality","Rapid delivery cycle","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"612cbe6a9458375fc594cd3f","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Faster time-to-market"],"BEN_PROJ":["Higher productivity","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"612cc5da9458375fc594cd40","BEN_ORGA":["Ability to develop software faster","Cost reduction","Scalability"],"BEN_PROJ":["Higher productivity","Improved communication & collaboration between team members","Rolling back to previous build versions"],"BEN_OTHER":""},{"_ID":"612d61339458375fc594cd41","BEN_ORGA":["Faster time-to-market","Ability to develop software faster","Quantity of products and services provided"],"BEN_PROJ":["Reduce infrastructure problems","Higher motivation and engagement","Risk mitigation"],"BEN_OTHER":""},{"_ID":"612dd9a19458375fc594cd42","BEN_ORGA":["Faster time-to-market","Quality of products and services provided","Operational efficiency"],"BEN_PROJ":["Higher productivity","Risk mitigation","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"613e70ca9458375fc594cd44","BEN_ORGA":["Responsiveness to customer needs","Quality of products and services provided","Ability to develop software faster"],"BEN_PROJ":["Higher productivity","Rapid delivery cycle","Lower failure rate of new releases"],"BEN_OTHER":""},{"_ID":"613eeb559458375fc594cd45","BEN_ORGA":["Operational efficiency","Quicker innovation","Faster time-to-market"],"BEN_PROJ":["Lower failure rate of new releases","Rapid delivery cycle","Reduce infrastructure problems"],"BEN_OTHER":""},{"_ID":"613f24d59458375fc594cd46","BEN_ORGA":["Operational efficiency","Scalability","Quicker innovation"],"BEN_PROJ":["Sense of shared ownership and responsibility  between team members","Alignment and unification of goals","Risk mitigation"],"BEN_OTHER":""},{"_ID":"613f2d649458375fc594cd47","BEN_ORGA":["Rapid delivery cycle","Ability to develop software faster","Responsiveness to customer needs"],"BEN_PROJ":["Higher productivity","Automation of repetitive work, focus on development","Improved code quality"],"BEN_OTHER":""},{"_ID":"613f32849458375fc594cd48","BEN_ORGA":["Operational efficiency","Rapid delivery cycle","Improved customer experience"],"BEN_PROJ":[],"BEN_OTHER":""},{"_ID":"613f69269458375fc594cd49","BEN_ORGA":["Faster time-to-market","Operational efficiency","Cost reduction"],"BEN_PROJ":["Reduce infrastructure problems","Higher productivity","Lower failure rate of new releases"],"BEN_OTHER":""},{"_ID":"613fb8569458375fc594cd4a","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Operational efficiency"],"BEN_PROJ":["Sense of shared ownership and responsibility  between team members","Automation of repetitive work, focus on development","Improved communication & collaboration between team members"],"BEN_OTHER":""},{"_ID":"61404f4b9458375fc594cd4b","BEN_ORGA":["Faster time-to-market","Scalability","Operational efficiency"],"BEN_PROJ":["Sense of shared ownership and responsibility  between team members","Scalability","Lower failure rate of new releases"],"BEN_OTHER":""},{"_ID":"614831aa9458375fc594cd4c","BEN_ORGA":["Quality of products and services provided","Operational efficiency","Scalability"],"BEN_PROJ":["Improved communication & collaboration between team members","Reduce infrastructure problems","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"61486a999458375fc594cd4d","BEN_ORGA":["Ability to develop software faster","Rapid delivery cycle"],"BEN_PROJ":["Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"61487beb9458375fc594cd4e","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Scalability"],"BEN_PROJ":["Reduce infrastructure problems","Improved incident handling","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"6149836f9458375fc594cd4f","BEN_ORGA":["Faster time-to-market","Improved customer experience","Rapid delivery cycle"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development","Rolling back to previous build versions"],"BEN_OTHER":""},{"_ID":"614a0ed39458375fc594cd50","BEN_ORGA":["Operational efficiency","Quality of products and services provided","Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Improved communication & collaboration between team members"],"BEN_OTHER":""},{"_ID":"614b474e9458375fc594cd51","BEN_ORGA":["Quality of products and services provided","Ability to develop software faster","Operational efficiency"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development","Continuous customer feedback"],"BEN_OTHER":""},{"_ID":"614c6d999458375fc594cd52","BEN_ORGA":["Ability to develop software faster","Operational efficiency","Quality of products and services provided"],"BEN_PROJ":["Automation of repetitive work, focus on development","Higher productivity","Improved incident handling"],"BEN_OTHER":""},{"_ID":"614c9a279458375fc594cd53","BEN_ORGA":["Quality of products and services provided","Faster time-to-market","Quicker innovation"],"BEN_PROJ":["Lower failure rate of new releases","Improved code quality"],"BEN_OTHER":"Improved work satisfaction score."},{"_ID":"614d8b0a9458375fc594cd54","BEN_ORGA":["Quicker innovation","Operational efficiency","Quality of products and services provided"],"BEN_PROJ":["Improved deployment frequency","Continuous customer feedback","Reduce infrastructure problems"],"BEN_OTHER":""},{"_ID":"614da04c9458375fc594cd55","BEN_ORGA":["Faster time-to-market","Competitive advantage","Quicker innovation"],"BEN_PROJ":["Improved deployment frequency","Lower failure rate of new releases","Continuous customer feedback"],"BEN_OTHER":""},{"_ID":"614f25069458375fc594cd56","BEN_ORGA":["Ability to develop software faster","Rapid delivery cycle"],"BEN_PROJ":["Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"614f39879458375fc594cd57","BEN_ORGA":["Ability to develop software faster","Improved customer experience","Operational efficiency"],"BEN_PROJ":["Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"614f4e239458375fc594cd58","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Faster time-to-market"],"BEN_PROJ":["Higher productivity","Improved communication & collaboration between team members","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"6151ae659458375fc594cd59","BEN_ORGA":["Scalability","Rapid delivery cycle","Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Improved incident handling"],"BEN_OTHER":""},{"_ID":"6151d5369458375fc594cd5a","BEN_ORGA":["Quality of products and services provided","Ability to develop software faster","Scalability"],"BEN_PROJ":["Reduce infrastructure problems","Automation of repetitive work, focus on development","Risk mitigation"],"BEN_OTHER":"Traceability of who did what and when"},{"_ID":"6151ed699458375fc594cd5b","BEN_ORGA":["Responsiveness to customer needs","Ability to develop software faster","Improved customer experience"],"BEN_PROJ":["Automation of repetitive work, focus on development","Continuous customer feedback"],"BEN_OTHER":""},{"_ID":"6152190e9458375fc594cd5c","BEN_ORGA":["Faster time-to-market","Responsiveness to customer needs"],"BEN_PROJ":["Automation of repetitive work, focus on development","Continuous customer feedback","Improved incident handling"],"BEN_OTHER":""},{"_ID":"6152315b9458375fc594cd5d","BEN_ORGA":["Ability to develop software faster","Operational efficiency","Quality of products and services provided"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development","Risk mitigation"],"BEN_OTHER":""},{"_ID":"615291a69458375fc594cd5e","BEN_ORGA":["Ability to develop software faster","Competitive advantage","Operational efficiency"],"BEN_PROJ":["Improved communication & collaboration between team members","Risk mitigation","Continuous customer feedback"],"BEN_OTHER":""},{"_ID":"6152d00a9458375fc594cd5f","BEN_ORGA":["Ability to develop software faster","Cost reduction"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"6152f7cd9458375fc594cd60","BEN_ORGA":["Operational efficiency"],"BEN_PROJ":["Reduce infrastructure problems","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"61531e8c9458375fc594cd61","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Operational efficiency"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development","Higher productivity"],"BEN_OTHER":""},{"_ID":"61541f069458375fc594cd62","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Operational efficiency"],"BEN_PROJ":["Automation of repetitive work, focus on development","Improved communication & collaboration between team members","Reduce infrastructure problems"],"BEN_OTHER":""},{"_ID":"61545a649458375fc594cd63","BEN_ORGA":["Competitive advantage","Quality of products and services provided","Quicker innovation"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"6154604a9458375fc594cd64","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided"],"BEN_PROJ":["Automation of repetitive work, focus on development","Reduce infrastructure problems","Improved incident handling"],"BEN_OTHER":""},{"_ID":"615463ec9458375fc594cd65","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided","Operational efficiency"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development","Risk mitigation"],"BEN_OTHER":""},{"_ID":"615489a69458375fc594cd66","BEN_ORGA":["Responsiveness to customer needs","Quicker innovation","Operational efficiency"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development","Continuous customer feedback"],"BEN_OTHER":""},{"_ID":"6154d4959458375fc594cd67","BEN_ORGA":["Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Reduce infrastructure problems"],"BEN_OTHER":""},{"_ID":"615546c89458375fc594cd68","BEN_ORGA":["Quality of products and services provided","Operational efficiency","Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Improved communication & collaboration between team members"],"BEN_OTHER":""},{"_ID":"615578099458375fc594cd69","BEN_ORGA":["Quicker innovation","Operational efficiency","Quality of products and services provided"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"6155af069458375fc594cd6a","BEN_ORGA":["Ability to develop software faster","Operational efficiency"],"BEN_PROJ":["Reduce infrastructure problems","Automation of repetitive work, focus on development","Improved incident handling"],"BEN_OTHER":""},{"_ID":"615631629458375fc594cd6b","BEN_ORGA":["Ability to develop software faster","Operational efficiency"],"BEN_PROJ":["Automation of repetitive work, focus on development","Improved communication & collaboration between team members"],"BEN_OTHER":""},{"_ID":"6156aa949458375fc594cd6c","BEN_ORGA":["Ability to develop software faster","Operational efficiency","Quality of products and services provided"],"BEN_PROJ":["Improved communication & collaboration between team members","Reduce infrastructure problems","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"6156c10e9458375fc594cd6d","BEN_ORGA":["Cost reduction","Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Lower failure rate of new releases"],"BEN_OTHER":""},{"_ID":"61571c859458375fc594cd6e","BEN_ORGA":["Ability to develop software faster","Quality of products and services provided"],"BEN_PROJ":["Automation of repetitive work, focus on development","Improved incident handling","Scalability"],"BEN_OTHER":""},{"_ID":"615755f79458375fc594cd6f","BEN_ORGA":["Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Lower failure rate of new releases","Scalability"],"BEN_OTHER":""},{"_ID":"615816989458375fc594cd70","BEN_ORGA":["Ability to develop software faster","Operational efficiency","Responsiveness to customer needs"],"BEN_PROJ":["Improved communication & collaboration between team members","Risk mitigation","Continuous customer feedback"],"BEN_OTHER":""},{"_ID":"615820d49458375fc594cd71","BEN_ORGA":["Ability to develop software faster","Operational efficiency"],"BEN_PROJ":["Improved communication & collaboration between team members","Automation of repetitive work, focus on development"],"BEN_OTHER":""},{"_ID":"615896689458375fc594cd72","BEN_ORGA":["Operational efficiency","Scalability","Ability to develop software faster"],"BEN_PROJ":["Automation of repetitive work, focus on development","Lower failure rate of new releases","Reduce infrastructure problems"],"BEN_OTHER":""},{"_ID":"6159a3ac9458375fc594cd73","BEN_ORGA":["Ability to develop software faster","Scalability","Quicker innovation"],"BEN_PROJ":["Automation of repetitive work, focus on development","Continuous customer feedback"],"BEN_OTHER":""},{"_ID":"615a00469458375fc594cd74","BEN_ORGA":["Faster time-to-market","Quicker innovation","Competitive advantage"],"BEN_PROJ":["Automation of repetitive work, focus on development","Higher motivation and engagement","Higher productivity"],"BEN_OTHER":""},{"_ID":"615aade19458375fc594cd75","BEN_ORGA":["Ability to develop software faster","Operational efficiency"],"BEN_PROJ":["Automation of repetitive work, focus on development","Higher productivity"],"BEN_OTHER":""}]
+[
+  {
+    "_ID": "6124f5f49458375fc594cd29",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Rapid delivery cycle"
+    ],
+    "BEN_PROJ": [],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61274c229458375fc594cd2a",
+    "BEN_ORGA": [
+      "Rapid delivery cycle",
+      "Scalability",
+      "Ability to develop software faster"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Risk mitigation",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61274fd59458375fc594cd2b",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Improved customer experience",
+      "Competitive advantage"
+    ],
+    "BEN_PROJ": ["Higher productivity", "Rapid delivery cycle", "Scalability"],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61275a509458375fc594cd2c",
+    "BEN_ORGA": [
+      "Operational efficiency",
+      "Rapid delivery cycle",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Automation of repetitive work, focus on development",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61275b639458375fc594cd2d",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Operational efficiency",
+      "Rapid delivery cycle"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Automation of repetitive work, focus on development",
+      "Rolling back to previous build versions"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61277bd79458375fc594cd2e",
+    "BEN_ORGA": ["Ability to develop software faster"],
+    "BEN_PROJ": ["Improved communication & collaboration between team members"],
+    "BEN_OTHER": "its like presales talking both technical and customer\nIn this case help non-technical developers to talk to the technical people;."
+  },
+  {
+    "_ID": "61277d539458375fc594cd2f",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Operational efficiency",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": ["Higher motivation and engagement", "Higher productivity"],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612786b99458375fc594cd30",
+    "BEN_ORGA": ["Cost reduction", "Scalability", "Rapid delivery cycle"],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Automation of repetitive work, focus on development",
+      "Improved deployment frequency"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612786bc9458375fc594cd31",
+    "BEN_ORGA": ["Quality of products and services provided"],
+    "BEN_PROJ": [
+      "Higher motivation and engagement",
+      "Higher productivity",
+      "Reduce infrastructure problems"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612789439458375fc594cd32",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Scalability",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61278dac9458375fc594cd33",
+    "BEN_ORGA": [
+      "Rapid delivery cycle",
+      "Responsiveness to customer needs",
+      "Faster time-to-market"
+    ],
+    "BEN_PROJ": [
+      "Improved incident handling",
+      "Reduce infrastructure problems",
+      "Higher productivity"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612799ba9458375fc594cd34",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Operational efficiency",
+      "Rapid delivery cycle"
+    ],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Scalability",
+      "Risk mitigation"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6127ad9b9458375fc594cd35",
+    "BEN_ORGA": [],
+    "BEN_PROJ": [],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6127c7769458375fc594cd36",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Rapid delivery cycle",
+      "Scalability"
+    ],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Improved deployment frequency",
+      "Improved code quality"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6127d3ca9458375fc594cd37",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Quantity of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Risk mitigation",
+      "Lower failure rate of new releases",
+      "Improved code quality"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6127d5629458375fc594cd38",
+    "BEN_ORGA": ["Scalability", "Rapid delivery cycle", "Quicker innovation"],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Scalability",
+      "Improved deployment frequency"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6127de859458375fc594cd39",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Ability to develop software faster",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Higher motivation and engagement",
+      "Improved code quality"
+    ],
+    "BEN_OTHER": "Happy developers"
+  },
+  {
+    "_ID": "6127e66e9458375fc594cd3a",
+    "BEN_ORGA": [
+      "Competitive advantage",
+      "Faster time-to-market",
+      "Rapid delivery cycle"
+    ],
+    "BEN_PROJ": ["Higher productivity", "Higher motivation and engagement"],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61287edb9458375fc594cd3b",
+    "BEN_ORGA": ["Operational efficiency", "Cost reduction", "Scalability"],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Improved code quality",
+      "Higher productivity"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612895539458375fc594cd3c",
+    "BEN_ORGA": [
+      "Competitive advantage",
+      "Faster time-to-market",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Continuous customer feedback",
+      "Sense of shared ownership and responsibility  between team members"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6128f9d99458375fc594cd3d",
+    "BEN_ORGA": ["Operational efficiency", "Cost reduction", "Scalability"],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Automation of repetitive work, focus on development",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": "Security"
+  },
+  {
+    "_ID": "612cbca09458375fc594cd3e",
+    "BEN_ORGA": [
+      "Competitive advantage",
+      "Faster time-to-market",
+      "Improved customer experience"
+    ],
+    "BEN_PROJ": [
+      "Improved code quality",
+      "Rapid delivery cycle",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612cbe6a9458375fc594cd3f",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Faster time-to-market"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612cc5da9458375fc594cd40",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Cost reduction",
+      "Scalability"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Improved communication & collaboration between team members",
+      "Rolling back to previous build versions"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612d61339458375fc594cd41",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Ability to develop software faster",
+      "Quantity of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Higher motivation and engagement",
+      "Risk mitigation"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "612dd9a19458375fc594cd42",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Quality of products and services provided",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Risk mitigation",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "613e70ca9458375fc594cd44",
+    "BEN_ORGA": [
+      "Responsiveness to customer needs",
+      "Quality of products and services provided",
+      "Ability to develop software faster"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Rapid delivery cycle",
+      "Lower failure rate of new releases"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "613eeb559458375fc594cd45",
+    "BEN_ORGA": [
+      "Operational efficiency",
+      "Quicker innovation",
+      "Faster time-to-market"
+    ],
+    "BEN_PROJ": [
+      "Lower failure rate of new releases",
+      "Rapid delivery cycle",
+      "Reduce infrastructure problems"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "613f24d59458375fc594cd46",
+    "BEN_ORGA": ["Operational efficiency", "Scalability", "Quicker innovation"],
+    "BEN_PROJ": [
+      "Sense of shared ownership and responsibility  between team members",
+      "Alignment and unification of goals",
+      "Risk mitigation"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "613f2d649458375fc594cd47",
+    "BEN_ORGA": [
+      "Rapid delivery cycle",
+      "Ability to develop software faster",
+      "Responsiveness to customer needs"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Automation of repetitive work, focus on development",
+      "Improved code quality"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "613f32849458375fc594cd48",
+    "BEN_ORGA": [
+      "Operational efficiency",
+      "Rapid delivery cycle",
+      "Improved customer experience"
+    ],
+    "BEN_PROJ": [],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "613f69269458375fc594cd49",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Operational efficiency",
+      "Cost reduction"
+    ],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Higher productivity",
+      "Lower failure rate of new releases"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "613fb8569458375fc594cd4a",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Sense of shared ownership and responsibility  between team members",
+      "Automation of repetitive work, focus on development",
+      "Improved communication & collaboration between team members"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61404f4b9458375fc594cd4b",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Scalability",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Sense of shared ownership and responsibility  between team members",
+      "Scalability",
+      "Lower failure rate of new releases"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614831aa9458375fc594cd4c",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Operational efficiency",
+      "Scalability"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Reduce infrastructure problems",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61486a999458375fc594cd4d",
+    "BEN_ORGA": ["Ability to develop software faster", "Rapid delivery cycle"],
+    "BEN_PROJ": ["Automation of repetitive work, focus on development"],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61487beb9458375fc594cd4e",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Scalability"
+    ],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Improved incident handling",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6149836f9458375fc594cd4f",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Improved customer experience",
+      "Rapid delivery cycle"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development",
+      "Rolling back to previous build versions"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614a0ed39458375fc594cd50",
+    "BEN_ORGA": [
+      "Operational efficiency",
+      "Quality of products and services provided",
+      "Ability to develop software faster"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Improved communication & collaboration between team members"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614b474e9458375fc594cd51",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Ability to develop software faster",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development",
+      "Continuous customer feedback"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614c6d999458375fc594cd52",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Higher productivity",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614c9a279458375fc594cd53",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Faster time-to-market",
+      "Quicker innovation"
+    ],
+    "BEN_PROJ": ["Lower failure rate of new releases", "Improved code quality"],
+    "BEN_OTHER": "Improved work satisfaction score."
+  },
+  {
+    "_ID": "614d8b0a9458375fc594cd54",
+    "BEN_ORGA": [
+      "Quicker innovation",
+      "Operational efficiency",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Improved deployment frequency",
+      "Continuous customer feedback",
+      "Reduce infrastructure problems"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614da04c9458375fc594cd55",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Competitive advantage",
+      "Quicker innovation"
+    ],
+    "BEN_PROJ": [
+      "Improved deployment frequency",
+      "Lower failure rate of new releases",
+      "Continuous customer feedback"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614f25069458375fc594cd56",
+    "BEN_ORGA": ["Ability to develop software faster", "Rapid delivery cycle"],
+    "BEN_PROJ": ["Automation of repetitive work, focus on development"],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614f39879458375fc594cd57",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Improved customer experience",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": ["Automation of repetitive work, focus on development"],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "614f4e239458375fc594cd58",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Faster time-to-market"
+    ],
+    "BEN_PROJ": [
+      "Higher productivity",
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6151ae659458375fc594cd59",
+    "BEN_ORGA": [
+      "Scalability",
+      "Rapid delivery cycle",
+      "Ability to develop software faster"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6151d5369458375fc594cd5a",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Ability to develop software faster",
+      "Scalability"
+    ],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Automation of repetitive work, focus on development",
+      "Risk mitigation"
+    ],
+    "BEN_OTHER": "Traceability of who did what and when"
+  },
+  {
+    "_ID": "6151ed699458375fc594cd5b",
+    "BEN_ORGA": [
+      "Responsiveness to customer needs",
+      "Ability to develop software faster",
+      "Improved customer experience"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Continuous customer feedback"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6152190e9458375fc594cd5c",
+    "BEN_ORGA": ["Faster time-to-market", "Responsiveness to customer needs"],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Continuous customer feedback",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6152315b9458375fc594cd5d",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development",
+      "Risk mitigation"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615291a69458375fc594cd5e",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Competitive advantage",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Risk mitigation",
+      "Continuous customer feedback"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6152d00a9458375fc594cd5f",
+    "BEN_ORGA": ["Ability to develop software faster", "Cost reduction"],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6152f7cd9458375fc594cd60",
+    "BEN_ORGA": ["Operational efficiency"],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61531e8c9458375fc594cd61",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development",
+      "Higher productivity"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61541f069458375fc594cd62",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Improved communication & collaboration between team members",
+      "Reduce infrastructure problems"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61545a649458375fc594cd63",
+    "BEN_ORGA": [
+      "Competitive advantage",
+      "Quality of products and services provided",
+      "Quicker innovation"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6154604a9458375fc594cd64",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Reduce infrastructure problems",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615463ec9458375fc594cd65",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development",
+      "Risk mitigation"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615489a69458375fc594cd66",
+    "BEN_ORGA": [
+      "Responsiveness to customer needs",
+      "Quicker innovation",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development",
+      "Continuous customer feedback"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6154d4959458375fc594cd67",
+    "BEN_ORGA": ["Ability to develop software faster"],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Reduce infrastructure problems"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615546c89458375fc594cd68",
+    "BEN_ORGA": [
+      "Quality of products and services provided",
+      "Operational efficiency",
+      "Ability to develop software faster"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Improved communication & collaboration between team members"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615578099458375fc594cd69",
+    "BEN_ORGA": [
+      "Quicker innovation",
+      "Operational efficiency",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6155af069458375fc594cd6a",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Reduce infrastructure problems",
+      "Automation of repetitive work, focus on development",
+      "Improved incident handling"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615631629458375fc594cd6b",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Improved communication & collaboration between team members"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6156aa949458375fc594cd6c",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Reduce infrastructure problems",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6156c10e9458375fc594cd6d",
+    "BEN_ORGA": ["Cost reduction", "Ability to develop software faster"],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Lower failure rate of new releases"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "61571c859458375fc594cd6e",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Quality of products and services provided"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Improved incident handling",
+      "Scalability"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615755f79458375fc594cd6f",
+    "BEN_ORGA": ["Ability to develop software faster"],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Lower failure rate of new releases",
+      "Scalability"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615816989458375fc594cd70",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency",
+      "Responsiveness to customer needs"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Risk mitigation",
+      "Continuous customer feedback"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615820d49458375fc594cd71",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Improved communication & collaboration between team members",
+      "Automation of repetitive work, focus on development"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615896689458375fc594cd72",
+    "BEN_ORGA": [
+      "Operational efficiency",
+      "Scalability",
+      "Ability to develop software faster"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Lower failure rate of new releases",
+      "Reduce infrastructure problems"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "6159a3ac9458375fc594cd73",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Scalability",
+      "Quicker innovation"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Continuous customer feedback"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615a00469458375fc594cd74",
+    "BEN_ORGA": [
+      "Faster time-to-market",
+      "Quicker innovation",
+      "Competitive advantage"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Higher motivation and engagement",
+      "Higher productivity"
+    ],
+    "BEN_OTHER": ""
+  },
+  {
+    "_ID": "615aade19458375fc594cd75",
+    "BEN_ORGA": [
+      "Ability to develop software faster",
+      "Operational efficiency"
+    ],
+    "BEN_PROJ": [
+      "Automation of repetitive work, focus on development",
+      "Higher productivity"
+    ],
+    "BEN_OTHER": ""
+  }
+]

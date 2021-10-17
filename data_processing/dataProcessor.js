@@ -20,7 +20,6 @@ console.log("Responses count: ", allResponses.length);
 const professionalStepData = processProfessionalData(allResponses);
 const maturityStepData = processMaturityData(allResponses);
 const cultureStepData = processCultureStep(allResponses);
-
 const perceptionStepData = processPerceptionData(allResponses);
 const benefitsStepData = processBenefitsStep(allResponses);
 const challengesStepData = processChallengesStep(allResponses);
