@@ -26,17 +26,20 @@ export const ORGANIZATIONAL_CHALLENGES_BY_NATIONALITY_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_COMPANY_NATIONALITY_DATA.bulgaria_bulgarian,
     "organizationalChallenges",
-    "Bulgarian and operates in Bulgaria"
+    "Bulgarian and operates in Bulgaria",
+    BY_COMPANY_NATIONALITY.bulgaria_bulgarian.length // the length of the segment
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_COMPANY_NATIONALITY_DATA.bulgaria_international,
     "organizationalChallenges",
-    "Bulgarian and operates internationally"
+    "Bulgarian and operates internationally",
+    BY_COMPANY_NATIONALITY.bulgaria_international.length // the length of the segment
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_COMPANY_NATIONALITY_DATA.multinational,
     "organizationalChallenges",
-    "Multinational"
+    "Multinational",
+    BY_COMPANY_NATIONALITY.multinational.length // the length of the segment
   ),
 ].sort((a, b) => a.label.localeCompare(b.label));
 
@@ -44,16 +47,19 @@ export const PROJECT_CHALLENGES_BY_NATIONALITY_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_COMPANY_NATIONALITY_DATA.bulgaria_bulgarian,
     "projectChallenges",
-    "Bulgarian and operates in Bulgaria"
+    "Bulgarian and operates in Bulgaria",
+    BY_COMPANY_NATIONALITY.bulgaria_bulgarian.length // the length of the segment
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_COMPANY_NATIONALITY_DATA.bulgaria_international,
     "projectChallenges",
-    "Bulgarian and operates internationally"
+    "Bulgarian and operates internationally",
+    BY_COMPANY_NATIONALITY.bulgaria_international.length // the length of the segment
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_COMPANY_NATIONALITY_DATA.multinational,
     "projectChallenges",
-    "Multinational"
+    "Multinational",
+    BY_COMPANY_NATIONALITY.multinational.length // the length of the segment
   ),
 ].sort((a, b) => a.label.localeCompare(b.label));

@@ -38,5 +38,3 @@ export const CULTURE_QUESTION_AVERAGES_BY_NATIONALITY = {
   CUL_TEAMCON: calculateQuestionAveragesByNationality("CUL_TEAMCON"),
   CUL_TOTAL: calculateQuestionAveragesByNationality("CUL_TOTAL"),
 };
-
-console.log(CULTURE_QUESTION_AVERAGES_BY_NATIONALITY);

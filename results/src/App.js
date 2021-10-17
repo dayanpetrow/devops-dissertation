@@ -12,6 +12,7 @@ import { Culture } from "./charts/Culture/Culture";
 import { Benefits } from "./charts/Benefits/Benefits";
 import { Challenges } from "./charts/Challenges/Challenges";
 import { Maturity } from "./charts/Maturity/Maturity";
+import { Population } from "./charts/Population/Population";
 
 const STEPS = {
   PROFESSIONAL: "Professional",
@@ -20,6 +21,7 @@ const STEPS = {
   CULTURE: "Culture",
   BENEFITS: "Benefits",
   CHALLENGES: "Challenges",
+  POPULATION: "Population",
 };
 
 export const App = () => {
@@ -42,6 +44,7 @@ export const App = () => {
         {activeTab === STEPS.BENEFITS && <Benefits />}
         {activeTab === STEPS.CHALLENGES && <Challenges />}
         {activeTab === STEPS.MATURITY && <Maturity />}
+        {activeTab === STEPS.POPULATION && <Population />}
       </Main>
     </Wrapper>
   );

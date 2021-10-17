@@ -1,0 +1,57 @@
+{
+  "CUL_MULTEAM": {
+    "BG_BG": "3.000",
+    "BG_INT": "3.893",
+    "MULTINATIONAL": "3.885"
+  },
+  "CUL_COLLAB": {
+    "BG_BG": "3.455",
+    "BG_INT": "4.250",
+    "MULTINATIONAL": "4.000"
+  },
+  "CUL_COMMUN": {
+    "BG_BG": "3.864",
+    "BG_INT": "4.393",
+    "MULTINATIONAL": "4.423"
+  },
+  "CUL_INITI": {
+    "BG_BG": "3.818",
+    "BG_INT": "4.429",
+    "MULTINATIONAL": "4.577"
+  },
+  "CUL_TECKSTA": {
+    "BG_BG": "3.091",
+    "BG_INT": "3.321",
+    "MULTINATIONAL": "3.692"
+  },
+  "CUL_SHARESP": {
+    "BG_BG": "3.273",
+    "BG_INT": "4.143",
+    "MULTINATIONAL": "4.077"
+  },
+  "CUL_FAILOP": {
+    "BG_BG": "3.273",
+    "BG_INT": "4.179",
+    "MULTINATIONAL": "4.077"
+  },
+  "CUL_DIFPERS": {
+    "BG_BG": "3.909",
+    "BG_INT": "4.429",
+    "MULTINATIONAL": "4.346"
+  },
+  "CUL_OUTCOMM": {
+    "BG_BG": "2.727",
+    "BG_INT": "3.179",
+    "MULTINATIONAL": "3.346"
+  },
+  "CUL_TEAMCON": {
+    "BG_BG": "3.591",
+    "BG_INT": "4.214",
+    "MULTINATIONAL": "4.231"
+  },
+  "CUL_TOTAL": {
+    "BG_BG": "34.000",
+    "BG_INT": "40.429",
+    "MULTINATIONAL": "40.654"
+  }
+}

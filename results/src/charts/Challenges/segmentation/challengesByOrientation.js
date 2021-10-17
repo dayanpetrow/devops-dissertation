@@ -20,33 +20,39 @@ export const ORGANIZATIONAL_CHALLENGES_BY_ORIENTATION_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_ORIENTATION_DATA.product,
     "organizationalChallenges",
-    "Product"
+    "Product",
+    BY_ORIENTATION.product.length
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_ORIENTATION_DATA.service,
     "organizationalChallenges",
-    "Service"
+    "Service",
+    BY_ORIENTATION.service.length
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_ORIENTATION_DATA.mixed,
     "organizationalChallenges",
-    "Mixed"
+    "Mixed",
+    BY_ORIENTATION.mixed.length
   ),
 ].sort((a, b) => a.label.localeCompare(b.label));
 export const PROJECT_CHALLENGES_BY_ORIENTATION_CHART_DATA = [
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_ORIENTATION_DATA.product,
     "projectChallenges",
-    "Product"
+    "Product",
+    BY_ORIENTATION.product.length
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_ORIENTATION_DATA.service,
     "projectChallenges",
-    "Service"
+    "Service",
+    BY_ORIENTATION.service.length
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_ORIENTATION_DATA.mixed,
     "projectChallenges",
-    "Mixed"
+    "Mixed",
+    BY_ORIENTATION.mixed.length
   ),
 ].sort((a, b) => a.label.localeCompare(b.label));

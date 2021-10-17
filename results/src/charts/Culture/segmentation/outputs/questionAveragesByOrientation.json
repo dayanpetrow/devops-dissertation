@@ -1,0 +1,57 @@
+{
+  "CUL_MULTEAM": {
+    "product": "3.679",
+    "service": "3.630",
+    "mixed": "3.571"
+  },
+  "CUL_COLLAB": {
+    "product": "4.000",
+    "service": "3.963",
+    "mixed": "3.810"
+  },
+  "CUL_COMMUN": {
+    "product": "4.357",
+    "service": "4.111",
+    "mixed": "4.286"
+  },
+  "CUL_INITI": {
+    "product": "4.357",
+    "service": "4.148",
+    "mixed": "4.429"
+  },
+  "CUL_TECKSTA": {
+    "product": "3.250",
+    "service": "3.444",
+    "mixed": "3.476"
+  },
+  "CUL_SHARESP": {
+    "product": "3.964",
+    "service": "3.741",
+    "mixed": "3.905"
+  },
+  "CUL_FAILOP": {
+    "product": "4.107",
+    "service": "3.704",
+    "mixed": "3.810"
+  },
+  "CUL_DIFPERS": {
+    "product": "4.393",
+    "service": "4.111",
+    "mixed": "4.238"
+  },
+  "CUL_OUTCOMM": {
+    "product": "2.786",
+    "service": "3.296",
+    "mixed": "3.286"
+  },
+  "CUL_TEAMCON": {
+    "product": "4.071",
+    "service": "3.926",
+    "mixed": "4.143"
+  },
+  "CUL_TOTAL": {
+    "product": "38.964",
+    "service": "38.074",
+    "mixed": "38.952"
+  }
+}

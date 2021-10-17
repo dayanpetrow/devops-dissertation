@@ -1,0 +1,126 @@
+[
+  {
+    "_ID": "6124f5f49458375fc594cd29",
+    "PER_DEFINI": "A combination of \"Development\" and \"Operations\", it aims to shorten the systems development life cycle and provide continuous delivery with high software quality.",
+    "CATEGORIES": [
+      "COMBINE_DEVELOPMENT_OPERATIONS",
+      "IMPROVE_SOFTWARE_QUALITY",
+      "IMPROVE_EFFICIENCY",
+      "CONTINUOUS_DELIVERY"
+    ],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "61277d539458375fc594cd2f",
+    "PER_DEFINI": "I believe it stands for Development Operations.  It increases an organization's ability to deliver applications and services at high velocity.",
+    "CATEGORIES": ["COMBINE_DEVELOPMENT_OPERATIONS", "IMPROVE_EFFICIENCY"],
+    "TYPE": "UNCLEAR"
+  },
+  {
+    "_ID": "612786b99458375fc594cd30",
+    "PER_DEFINI": "A role responsible for building and maintaing the software infrastructure using the so called infrastructore as code (IaC). They play a vital part in the release process as well helping the developers deploy their code through CI/CD pipelines.",
+    "CATEGORIES": [
+      "ROLE",
+      "INFRASTRUCTURE_MANAGEMENT",
+      "AUTOMATION",
+      "CONTINUOUS_INTEGRATION",
+      "CONTINUOUS_DELIVERY",
+      "PIPELINE"
+    ],
+    "TYPE": "ROLE"
+  },
+  {
+    "_ID": "61287edb9458375fc594cd3b",
+    "PER_DEFINI": "Setting up and Automating CI/CD pipelines. Taking care of cloud infrastructure. ",
+    "CATEGORIES": [
+      "INFRASTRUCTURE_MANAGEMENT",
+      "CONTINUOUS_INTEGRATION",
+      "CONTINUOUS_DELIVERY",
+      "AUTOMATION",
+      "PIPELINE"
+    ],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "612895539458375fc594cd3c",
+    "PER_DEFINI": "DevOps is essentially a  culture which aims to - improve delivery times of software, while providing fast feedback for the result of the deliveries. Once those two are accomplished - fast software delivery + fast automated feedback + fast user feedback, the next step is to allow rapid experiments, which may result in large gains for the company. ",
+    "CATEGORIES": ["CULTURE", "IMPROVE_EFFICIENCY", "IMPROVE_FEEDBACK_LOOP"],
+    "TYPE": "CULTURE"
+  },
+  {
+    "_ID": "61487beb9458375fc594cd4e",
+    "PER_DEFINI": "set of practices that combines software development and IT operations",
+    "CATEGORIES": ["COMBINE_DEVELOPMENT_OPERATIONS", "PRACTICE"],
+    "TYPE": "PRACTICE"
+  },
+  {
+    "_ID": "6149836f9458375fc594cd4f",
+    "PER_DEFINI": "automation",
+    "CATEGORIES": ["AUTOMATION"],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "614a0ed39458375fc594cd50",
+    "PER_DEFINI": "bridge between development and operations, relies on automation",
+    "CATEGORIES": ["COMBINE_DEVELOPMENT_OPERATIONS", "AUTOMATION"],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "614f39879458375fc594cd57",
+    "PER_DEFINI": "automation of repetitive processes",
+    "CATEGORIES": ["AUTOMATION"],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "6151ae659458375fc594cd59",
+    "PER_DEFINI": "automation of build, test and deployment processes",
+    "CATEGORIES": ["AUTOMATION", "PIPELINE"],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "6152190e9458375fc594cd5c",
+    "PER_DEFINI": "Utalization of automated pipeline processes",
+    "CATEGORIES": ["AUTOMATION", "PIPELINE"],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "6152d00a9458375fc594cd5f",
+    "PER_DEFINI": "Collaboration between the development and operation teams.",
+    "CATEGORIES": ["COMBINE_DEVELOPMENT_OPERATIONS", "COLLABORATION"],
+    "TYPE": "CULTURE"
+  },
+  {
+    "_ID": "6154604a9458375fc594cd64",
+    "PER_DEFINI": "Automation of steps from testing to deployment that must be performed in order to deliver a new version of software.",
+    "CATEGORIES": ["AUTOMATION", "PIPELINE"],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "615755f79458375fc594cd6f",
+    "PER_DEFINI": "Pipeline automation",
+    "CATEGORIES": ["AUTOMATION", "PIPELINE"],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "615896689458375fc594cd72",
+    "PER_DEFINI": "An approach used to automate development operations (pipeline) and configure infrastructure by usage of code (IaC).",
+    "CATEGORIES": [
+      "COMBINE_DEVELOPMENT_OPERATIONS",
+      "AUTOMATION",
+      "PIPELINE",
+      "INFRASTRUCTURE_MANAGEMENT"
+    ],
+    "TYPE": "TECHNOLOGY"
+  },
+  {
+    "_ID": "615a00469458375fc594cd74",
+    "PER_DEFINI": "DevOps promotes culture of collaboration and empowers organizations with tools and technologies to create more efficient and automated operational processes.",
+    "CATEGORIES": [
+      "CULTURE",
+      "COLLABORATION",
+      "AUTOMATION",
+      "IMPROVE_EFFICIENCY"
+    ],
+    "TYPE": "CULTURE_AND_TECHNOLOGY"
+  }
+]

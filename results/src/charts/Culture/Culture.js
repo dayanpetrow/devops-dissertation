@@ -5,7 +5,12 @@ import { StepHeader } from "../../components/StepHeader/StepHeader";
 import { ChartHeader } from "../../components/ChartHeader/ChartHeader";
 import { generateColumnChartConfig, generatePieChartConfig } from "../utils";
 
-import { ORGANIZATION_DATA, TEAM_DATA, CULTURE_TOTALS_DATA } from "./chartData";
+import {
+  ORGANIZATION_DATA,
+  TEAM_DATA,
+  CULTURE_TOTALS_DATA,
+  AVERAGE_CULTURE_TOTAL_SCORE,
+} from "./totals/chartData";
 
 // segmentation
 import { generateGroupedBarChartConfig } from "./segmentation/_utils";
@@ -31,13 +36,16 @@ import {
   AVERAGE_MORE_2000_SCORE,
 } from "./segmentation/cultureTotalsBySize";
 
-import * as questionAveragesByNationality from "./segmentation/questionAveragesByNationality";
+import { CultureTableByNationality } from "./tables/CultureByNationality";
+import { CultureTableByOrientation } from "./tables/CultureByOrientation";
+import { CultureTableBySize } from "./tables/CultureBySize";
+
+import * as utilityData from "./totals/utilityData";
 
 export const Culture = () => {
   return (
     <>
       <h2 className={"section-title"}>In my organization...</h2>
-
       <div className={"charts-wrapper"}>
         {Object.keys(ORGANIZATION_DATA).map((statisticsKey) => (
           <div className={"chart-wrapper"}>
@@ -49,7 +57,6 @@ export const Culture = () => {
           </div>
         ))}
       </div>
-
       <h2 className={"section-title"}>In my team...</h2>
       <div className={"charts-wrapper"}>
         {Object.keys(TEAM_DATA).map((statisticsKey) => (
@@ -59,12 +66,27 @@ export const Culture = () => {
           </div>
         ))}
       </div>
-
       <h2 className={"section-title"}>Culture Totals Distribution</h2>
-      <div className={"chart-wrapper"}>
-        <Column {...generateColumnChartConfig(CULTURE_TOTALS_DATA, "Total")} />
+      <Row
+        align={"middle"}
+        justify={"center"}
+        gutter={[16, 16]}
+        style={{ paddingBottom: "16px" }}
+      >
+        <Col span={24} align={"middle"}>
+          <h4>Culture Total Average</h4>
+          <div>{AVERAGE_CULTURE_TOTAL_SCORE.toFixed(2)}</div>
+        </Col>
+      </Row>
+      <div className={"chart-wrapper"} style={{ maxWidth: "1024px" }}>
+        <Column
+          {...{
+            ...generateColumnChartConfig(CULTURE_TOTALS_DATA, "Total"),
+            height: 400,
+            width: 800,
+          }}
+        />
       </div>
-
       <div className={"chart-wrapper"}>
         <ChartHeader title={"Culture Totals by Nationality"} />
         <Row
@@ -92,7 +114,6 @@ export const Culture = () => {
           )}
         />
       </div>
-
       <div className={"chart-wrapper"}>
         <ChartHeader title={"Culture Totals by Orientation"} />
         <Row
@@ -120,7 +141,6 @@ export const Culture = () => {
           )}
         />
       </div>
-
       <div className={"chart-wrapper"}>
         <ChartHeader title={"Culture Totals by Size"} />
         <Row
@@ -158,6 +178,10 @@ export const Culture = () => {
           {...generateGroupedBarChartConfig(CULTURE_TOTALS_BY_SIZE_CHART_DATA)}
         />
       </div>
+
+      <CultureTableByNationality />
+      <CultureTableByOrientation />
+      <CultureTableBySize />
     </>
   );
 };

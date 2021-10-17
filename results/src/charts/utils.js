@@ -31,11 +31,11 @@ export const generatePieChartConfig = (data) => {
     angleField: "count",
     colorField: "label",
     radius: 1,
-    innerRadius: 0.45,
+    // innerRadius: 0.45,
     label: {
       type: "inner",
-      offset: "-50%",
-      style: { textAlign: "center" },
+      offset: "-30%",
+      style: { textAlign: "center", fontSize: 18 },
       autoRotate: false,
       content: function content(_ref) {
         return _ref.count === 0 ? "" : _ref.count;
@@ -51,6 +51,7 @@ export const generatePieChartConfig = (data) => {
       itemSpacing: 16,
       layout: "horizontal",
       position: "top",
+      fontSize: 18,
     },
     interactions: [{ type: "element-active" }],
     statistic: {
@@ -62,18 +63,21 @@ export const generatePieChartConfig = (data) => {
           overflow: "hidden",
           textOverflow: "ellipsis",
         },
-        content: `
-Responses: ${data.reduce((a, b) => a + b.count, 0)}
-Score: ${data.reduce((a, b) => a + b.count * SCALE_SCORES[b.label], 0)}
-Average: ${(
-          data.reduce((a, b) => a + b.count * SCALE_SCORES[b.label], 0) /
-          data.reduce((a, b) => a + b.count, 0)
-        ).toFixed(2)}
-`,
+        //         content: `
+        // Average: ${(
+        //           data.reduce((a, b) => a + b.count * SCALE_SCORES[b.label], 0) /
+        //           data.reduce((a, b) => a + b.count, 0)
+        //         ).toFixed(2)}
+        // `,
       },
     },
   };
 };
+
+/**
+ * // Responses: ${data.reduce((a, b) => a + b.count, 0)}
+// Score: ${data.reduce((a, b) => a + b.count * SCALE_SCORES[b.label], 0)}
+ */
 
 const SCALE_SCORES = {
   "Strongly Disagree": 1,

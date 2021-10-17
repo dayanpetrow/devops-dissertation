@@ -10,7 +10,6 @@ import {
   generateGroupedChartDataBySegment,
 } from "./_utils";
 
-/** BENEFITS BY SIZE */
 export const CULTURE_TOTALS_BY_SIZE_DATA = {
   "1-19": generateCultureTotalsBySegment(BY_SIZE["1-19"]),
   "20-99": generateCultureTotalsBySegment(BY_SIZE["20-99"]),

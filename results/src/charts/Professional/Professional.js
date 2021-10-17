@@ -16,6 +16,7 @@ import {
 import { generateGroupedBarChartConfig } from "./segmentation/_utils";
 import { POSITION_BY_EXPERIENCE_CHART_DATA } from "./segmentation/positionByExperience";
 import { EXPERIENCE_BY_POSITION_CHART_DATA } from "./segmentation/experienceByPosition";
+import { SIZE_BY_NATIONALITY_CHART_DATA } from "./segmentation/sizeByNationality";
 
 export const Professional = () => {
   return (
@@ -64,6 +65,13 @@ export const Professional = () => {
         <ChartHeader title={"Experience By Position"} />
         <Bar
           {...generateGroupedBarChartConfig(EXPERIENCE_BY_POSITION_CHART_DATA)}
+        />
+      </div>
+
+      <div className={"chart-wrapper"}>
+        <ChartHeader title={"Nationality By Size"} />
+        <Bar
+          {...generateGroupedBarChartConfig(SIZE_BY_NATIONALITY_CHART_DATA)}
         />
       </div>
     </div>

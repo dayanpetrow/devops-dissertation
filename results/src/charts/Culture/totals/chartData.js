@@ -73,10 +73,9 @@ export const CULTURE_TOTALS_DATA = Object.keys(data.CUL_TOTAL).map((total) => ({
   count: data.CUL_TOTAL[total],
 }));
 
-// const TOTAL_CULTURE_SCORE = Object.keys(data.CUL_TOTAL).reduce(
-//   (total, score) => total + +score * data.CUL_TOTAL[score],
-//   0
-// );
-// export const AVERAGE_CULTURE_TOTAL_SCORE = TOTAL_CULTURE_SCORE / 76;
+const TOTAL_CULTURE_SCORE = Object.keys(data.CUL_TOTAL).reduce(
+  (total, score) => total + +score * data.CUL_TOTAL[score],
+  0
+);
 
-// console.log(AVERAGE_CULTURE_TOTAL_SCORE);
+export const AVERAGE_CULTURE_TOTAL_SCORE = TOTAL_CULTURE_SCORE / 76;

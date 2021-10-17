@@ -29,28 +29,40 @@ export const generateChallengesBySegment = (segmentData) => {
 };
 
 // type => organizationalChallenges, projectChallenges
-export const generateGroupedChartDataBySegment = (segment, type, group) =>
-  Object.keys(segment[type]).map((challenge) => ({
+export const generateGroupedChartDataBySegment = (
+  segment,
+  type,
+  group,
+  segmentCount
+) => {
+  console.log(segment);
+  return Object.keys(segment[type]).map((challenge) => ({
     label: challenge,
     count: segment[type][challenge],
     group: group,
+    percentage: ((+segment[type][challenge] / segmentCount) * 100).toFixed(2),
   }));
+};
 
 // bar chart config
 export const generateGroupedBarChartConfig = (data) => ({
-  height: 350,
+  height: 400,
   autoFit: true,
   data: data,
   isStack: true,
   xField: "count",
   yField: "label",
   seriesField: "group",
-  maxBarWidth: 30,
+  maxBarWidth: 40,
   intervalPadding: 10,
   barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
   label: {
     position: "middle",
     layout: "horizontal",
+    formatter: (item) => {
+      return `${item.count}
+(${item.percentage}%)`;
+    },
   },
   legend: {
     position: "top",

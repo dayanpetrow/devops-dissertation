@@ -15,6 +15,10 @@ import { AGILE_RELATION_BY_ORIENTATION_CHART_DATA } from "./segmentation/agileRe
 import { AGILE_RELATION_BY_POSITION_CHART_DATA } from "./segmentation/agileRelationByPosition";
 
 import { BY_COMPANY_NATIONALITY } from "../segmentationData";
+import { BG_BULGARIA_DATA_STATISTICS } from "./definitions/processDefinitions";
+
+import { DefinitionByFeature } from "./definitions/DefinitionsByFeature";
+import { DefinitionByType } from "./definitions/DefinitionsByType";
 
 export const Perception = () => {
   console.log(
@@ -101,6 +105,16 @@ export const Perception = () => {
             AGILE_RELATION_BY_ORIENTATION_CHART_DATA
           )}
         />
+      </div>
+
+      <div className={"chart-wrapper"}>
+        <ChartHeader title={"Definition by Tag"} />
+        <DefinitionByFeature />
+      </div>
+
+      <div className={"chart-wrapper"}>
+        <ChartHeader title={"Definition by Type"} />
+        <DefinitionByType />
       </div>
     </div>
   );
