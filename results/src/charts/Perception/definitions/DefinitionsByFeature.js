@@ -43,17 +43,17 @@ const TABLE_COLUMNS_BY_FEATURE = [
 ];
 
 const TABLE_DATA_BY_FEATURE = Object.keys(DEFINITION_CATEGORIES)
-  .map((feature) => {
+  .map((tag) => {
     return {
-      name: CATEGORIES_LABELS[feature],
-      bg_bg: BG_BULGARIA_DATA_STATISTICS.categories[feature],
-      bg_int: BG_INTERNATIONAL_DATA_STATISTICS.categories[feature],
-      multinational: MULTINATIONAL_DATA_STATISTICS.categories[feature],
-      total: TOTAL_DATA_STATISTICS.categories[feature],
+      name: CATEGORIES_LABELS[tag],
+      bg_bg: BG_BULGARIA_DATA_STATISTICS.tags[tag] || 0,
+      bg_int: BG_INTERNATIONAL_DATA_STATISTICS.tags[tag] || 0,
+      multinational: MULTINATIONAL_DATA_STATISTICS.tags[tag] || 0,
+      total: TOTAL_DATA_STATISTICS.tags[tag] || 0,
     };
   })
-  .sort((a, b) => b.total - a.total)
-  .slice(0, 10);
+  .sort((a, b) => b.total - a.total);
+// .slice(0, 10);
 
 export const DefinitionByFeature = () => {
   return (

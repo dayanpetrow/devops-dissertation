@@ -52,7 +52,7 @@ export const generateDropdownPieChartConfig = (data) => {
     },
     legend: {
       itemSpacing: 8,
-      layout: "vertical",
+      layout: "horizontal",
       position: "top",
       flipPage: false,
       maxItemWidth: "100%",

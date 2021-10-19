@@ -15,6 +15,7 @@ export const CHALLENGES_BY_SIZE_DATA = {
   "20-99": generateChallengesBySegment(BY_SIZE["20-99"]),
   "100-249": generateChallengesBySegment(BY_SIZE["100-249"]),
   "250-499": generateChallengesBySegment(BY_SIZE["250-499"]),
+  "500-1999": generateChallengesBySegment(BY_SIZE["500-1999"]),
   "More than 2000": generateChallengesBySegment(BY_SIZE["More than 2000"]),
 };
 
@@ -42,6 +43,12 @@ export const ORGANIZATIONAL_CHALLENGES_BY_SIZE_CHART_DATA = [
     "organizationalChallenges",
     "250-499",
     BY_SIZE["250-499"].length
+  ),
+  ...generateGroupedChartDataBySegment(
+    CHALLENGES_BY_SIZE_DATA["500-1999"],
+    "organizationalChallenges",
+    "500-1999",
+    BY_SIZE["500-1999"].length
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_SIZE_DATA["More than 2000"],
@@ -75,6 +82,12 @@ export const PROJECT_CHALLENGES_BY_SIZE_CHART_DATA = [
     "projectChallenges",
     "250-499",
     BY_SIZE["250-499"].length
+  ),
+  ...generateGroupedChartDataBySegment(
+    CHALLENGES_BY_SIZE_DATA["500-1999"],
+    "projectChallenges",
+    "500-1999",
+    BY_SIZE["500-1999"].length
   ),
   ...generateGroupedChartDataBySegment(
     CHALLENGES_BY_SIZE_DATA["More than 2000"],

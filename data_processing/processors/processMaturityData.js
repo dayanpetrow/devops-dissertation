@@ -54,15 +54,15 @@ const TOOLCHAIN_ANSWERS = [
 ];
 
 const TOOLCHAIN_SCORES = {
-  "Automated build": 3,
-  "Automated unit tests": 3,
-  "Automated deployment to testing environments": 3,
-  "Automated deployment to production": 2,
-  "Integration with monitoring tools": 2,
-  "Integration with logging tools": 2,
-  "Automated acceptance testing": 4,
-  "Automated performance testing": 4,
-  "Automated security testing": 4,
+  "Automated build": 1,
+  "Automated unit tests": 1,
+  "Automated deployment to testing environments": 1,
+  "Automated deployment to production": 1,
+  "Integration with monitoring tools": 1,
+  "Integration with logging tools": 1,
+  "Automated acceptance testing": 2,
+  "Automated performance testing": 2,
+  "Automated security testing": 2,
 };
 
 const SCALE_ANSWERS = {

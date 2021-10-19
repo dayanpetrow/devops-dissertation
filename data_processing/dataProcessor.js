@@ -10,6 +10,7 @@ const combineRelevantData = require("./processors/combineRelevantData");
 
 const allResponsesRaw = fs.readFileSync("allResponses.json");
 
+// const POTENTIAL_OUTLIERS = ["61277bd79458375fc594cd2e"];
 const INVALID_DATA = ["613e6d369458375fc594cd43"];
 const allResponses = JSON.parse(allResponsesRaw).filter(
   (response) => !INVALID_DATA.includes(response._id)

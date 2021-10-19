@@ -5,14 +5,12 @@ import MULTINATIONAL_DATA from "./Multinational.json";
 const processDefinitionsByNationality = (nationalitySegment) =>
   nationalitySegment.reduce(
     (hashmap, definition) => {
-      const { CATEGORIES = [], TYPE = "" } = definition;
+      const { TAGS = [], TYPE = "" } = definition;
 
-      CATEGORIES.forEach(
-        (category) =>
-          (hashmap.categories[category] =
-            hashmap.categories[category] !== undefined
-              ? ++hashmap.categories[category]
-              : 1)
+      TAGS.forEach(
+        (tag) =>
+          (hashmap.tags[tag] =
+            hashmap.tags[tag] !== undefined ? ++hashmap.tags[tag] : 1)
       );
 
       hashmap.type[TYPE] =
@@ -22,7 +20,7 @@ const processDefinitionsByNationality = (nationalitySegment) =>
     },
     {
       type: {},
-      categories: {},
+      tags: {},
       count: nationalitySegment.length,
     }
   );

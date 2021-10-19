@@ -39,6 +39,8 @@ import {
 
 import * as questionAverages from "./questionCharts/questionAverages";
 
+import { MATURITY_QUESTION_AVERAGES_TOTAL } from "./utilityData/questionAveragesTotal";
+
 export const Maturity = () => {
   return (
     <>
@@ -55,7 +57,7 @@ export const Maturity = () => {
         ))}
       </div>
 
-      <div className={"chart-wrapper"}>
+      <div className={"chart-wrapper mw-1024"}>
         <ChartHeader title={"Which tools are part of your team's toolchain?"} />
         <Bar
           {...{

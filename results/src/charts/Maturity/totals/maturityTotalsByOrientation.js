@@ -40,3 +40,8 @@ const calculateAverageTotal = (orientation) => {
 export const AVERAGE_TOTAL_PRODUCT = calculateAverageTotal("product");
 export const AVERAGE_TOTAL_SERVICE = calculateAverageTotal("service");
 export const AVERAGE_TOTAL_MIXED = calculateAverageTotal("mixed");
+
+console.log(
+  "MATURITY_TOTALS_BY_ORIENTATION_DATA: ",
+  MATURITY_TOTALS_BY_ORIENTATION_DATA
+);

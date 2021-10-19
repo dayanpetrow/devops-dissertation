@@ -33,47 +33,50 @@ import {
 export const Benefits = () => {
   return (
     <>
-      <div className={"chart-wrapper"}>
-        <h2 className={"section-title"}>Benefits Totals</h2>
-        <ChartHeader title={"Organization benefits"} />
-        <Bar
-          {...{
-            data: ORGANIZATION_BENEFITS_TOTALS_DATA,
-            xField: "count",
-            yField: "label",
-            legend: { position: "top-left" },
-            barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
-            label: {
-              position: "right",
-            },
-            interactions: [
-              {
-                type: "active-region",
-                enable: false,
+      <h2 className={"section-title"}>Benefits Totals</h2>
+      <div className={"charts-wrapper"}>
+        <div className={"chart-wrapper"}>
+          <ChartHeader title={"Organization benefits"} />
+          <Bar
+            {...{
+              data: ORGANIZATION_BENEFITS_TOTALS_DATA,
+              xField: "count",
+              yField: "label",
+              legend: { position: "top-left" },
+              barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
+              label: {
+                position: "right",
               },
-            ],
-          }}
-        />
-
-        <ChartHeader title={"Project/team benefits"} />
-        <Bar
-          {...{
-            data: PROJECT_BENEFITS_TOTALS_DATA,
-            xField: "count",
-            yField: "label",
-            legend: { position: "top-left" },
-            barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
-            label: {
-              position: "right",
-            },
-            interactions: [
-              {
-                type: "active-region",
-                enable: false,
+              interactions: [
+                {
+                  type: "active-region",
+                  enable: false,
+                },
+              ],
+            }}
+          />
+        </div>
+        <div className={"chart-wrapper"}>
+          <ChartHeader title={"Project/team benefits"} />
+          <Bar
+            {...{
+              data: PROJECT_BENEFITS_TOTALS_DATA,
+              xField: "count",
+              yField: "label",
+              legend: { position: "top-left" },
+              barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
+              label: {
+                position: "right",
               },
-            ],
-          }}
-        />
+              interactions: [
+                {
+                  type: "active-region",
+                  enable: false,
+                },
+              ],
+            }}
+          />
+        </div>
       </div>
 
       <div className={"chart-wrapper"}>

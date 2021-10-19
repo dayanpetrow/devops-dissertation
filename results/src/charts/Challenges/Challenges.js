@@ -33,50 +33,58 @@ import {
   PROJECT_CHALLENGES_BY_ORIENTATION_CHART_DATA,
 } from "./segmentation/challengesByOrientation";
 
+import * as UtilityData from "./utilityData/utilityData";
+
 export const Challenges = () => {
   return (
     <>
-      <div className={"chart-wrapper"}>
-        <h2 className={"section-title"}>Challenges Totals</h2>
-        <ChartHeader title={"Organization challenges"} />
-        <Bar
-          {...{
-            data: ORGANIZATION_CHALLENGES_TOTALS_DATA,
-            xField: "count",
-            yField: "label",
-            legend: { position: "top-left" },
-            barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
-            label: {
-              position: "right",
-            },
-            interactions: [
-              {
-                type: "active-region",
-                enable: false,
+      <h2 className={"section-title"}>Challenges Totals</h2>
+      <div className={"charts-wrapper"}>
+        <div className={"chart-wrapper mw-1024"}>
+          <ChartHeader title={"Organization challenges"} />
+          <Bar
+            {...{
+              height: 400,
+              data: ORGANIZATION_CHALLENGES_TOTALS_DATA,
+              xField: "count",
+              yField: "label",
+              legend: { position: "top-left" },
+              barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
+              label: {
+                position: "right",
+                fontSize: 18,
               },
-            ],
-          }}
-        />
-
-        <ChartHeader title={"Project/team challenges"} />
-        <Bar
-          {...{
-            data: TEAM_CHALLENGES_TOTALS_DATA,
-            xField: "count",
-            yField: "label",
-            legend: { position: "top-left" },
-            barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
-            label: {
-              position: "right",
-            },
-            interactions: [
-              {
-                type: "active-region",
-                enable: false,
+              interactions: [
+                {
+                  type: "active-region",
+                  enable: false,
+                },
+              ],
+            }}
+          />
+        </div>
+        <div className={"chart-wrapper mw-1024"}>
+          <ChartHeader title={"Project/team challenges"} />
+          <Bar
+            {...{
+              height: 400,
+              data: TEAM_CHALLENGES_TOTALS_DATA,
+              xField: "count",
+              yField: "label",
+              legend: { position: "top-left" },
+              barBackground: { style: { fill: "rgba(0,0,0,0.1)" } },
+              label: {
+                position: "right",
               },
-            ],
-          }}
-        />
+              interactions: [
+                {
+                  type: "active-region",
+                  enable: false,
+                },
+              ],
+            }}
+          />
+        </div>
       </div>
 
       <div className={"chart-wrapper"}>
