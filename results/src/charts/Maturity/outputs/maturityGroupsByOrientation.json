@@ -1,0 +1,26 @@
+{
+  "product": {
+    "very_low": 2,
+    "low": 0,
+    "neutral": 9,
+    "high": 8,
+    "very_high": 6,
+    "exceptional": 3
+  },
+  "service": {
+    "very_low": 0,
+    "low": 3,
+    "neutral": 8,
+    "high": 8,
+    "very_high": 7,
+    "exceptional": 1
+  },
+  "mixed": {
+    "very_low": 0,
+    "low": 2,
+    "neutral": 6,
+    "high": 4,
+    "very_high": 6,
+    "exceptional": 3
+  }
+}

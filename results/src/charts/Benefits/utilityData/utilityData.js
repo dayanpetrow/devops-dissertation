@@ -1,0 +1,31 @@
+import allData from "../../allDataJSON.json";
+
+const TOTAL_SELECTED_ORGANIZATION_BENEFITS = allData.reduce(
+  (total, response) => total + response.BEN_ORGA.length,
+  0
+);
+const AVERAGE_ORGANIZATION_BENEFITS_COUNT =
+  TOTAL_SELECTED_ORGANIZATION_BENEFITS / allData.length;
+
+console.log(
+  "AVERAGE_ORGANIZATION_BENEFITS_COUNT ",
+  AVERAGE_ORGANIZATION_BENEFITS_COUNT
+);
+
+const TOTAL_SELECTED_PROJECT_BENEFITS = allData.reduce(
+  (total, response) => total + response.BEN_PROJ.length,
+  0
+);
+
+const AVERAGE_PROJECT_BENEFITS_COUNT =
+  TOTAL_SELECTED_PROJECT_BENEFITS / allData.length;
+
+console.log("AVERAGE_PROJECT_BENEFITS_COUNT ", AVERAGE_PROJECT_BENEFITS_COUNT);
+
+const MULTINATIONAL_COMPANTY_CENTRALIZED_DEVOPS = allData.filter(
+  (response) => response.PRO_COMNAT === "3" && response.MAT_TOOLRES === "4"
+);
+console.log(
+  "MULTINATIONAL_COMPANTY_CENTRALIZED_DEVOPS: ",
+  MULTINATIONAL_COMPANTY_CENTRALIZED_DEVOPS
+);

@@ -170,7 +170,6 @@ const processMaturityStep = (responses) => {
     return {
       ...response,
       MAT_TOTAL: total,
-      MAT_AVG: (total / 17).toFixed(2),
     };
   });
 

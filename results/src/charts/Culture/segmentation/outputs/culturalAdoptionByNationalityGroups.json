@@ -1,0 +1,20 @@
+{
+  "bulgaria_bulgarian": {
+    "low": 0,
+    "neutral": 14,
+    "high": 8,
+    "very_high": 0
+  },
+  "bulgaria_international": {
+    "low": 0,
+    "neutral": 4,
+    "high": 18,
+    "very_high": 6
+  },
+  "multinational": {
+    "low": 0,
+    "neutral": 4,
+    "high": 16,
+    "very_high": 6
+  }
+}

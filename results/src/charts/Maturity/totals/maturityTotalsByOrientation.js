@@ -45,3 +45,33 @@ console.log(
   "MATURITY_TOTALS_BY_ORIENTATION_DATA: ",
   MATURITY_TOTALS_BY_ORIENTATION_DATA
 );
+
+const calculatTechnicalAdoptionGroupsByOrientation = (nationalitySegment) => ({
+  very_low: nationalitySegment.filter((response) => response.MAT_TOTAL < 50)
+    .length,
+  low: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 50 && response.MAT_TOTAL <= 59.999
+  ).length,
+  neutral: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 60 && response.MAT_TOTAL <= 69.999
+  ).length,
+  high: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 70 && response.MAT_TOTAL <= 79.999
+  ).length,
+  very_high: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 80 && response.MAT_TOTAL <= 89.999
+  ).length,
+  exceptional: nationalitySegment.filter((response) => response.MAT_TOTAL >= 90)
+    .length,
+});
+
+const ORIENTATION_TECHNICAL_ADOPTION_GROUPS = {
+  product: calculatTechnicalAdoptionGroupsByOrientation(BY_ORIENTATION.product),
+  service: calculatTechnicalAdoptionGroupsByOrientation(BY_ORIENTATION.service),
+  mixed: calculatTechnicalAdoptionGroupsByOrientation(BY_ORIENTATION.mixed),
+};
+
+console.log(
+  "ORIENTATION_TECHNICAL_ADOPTION_GROUPS: ",
+  ORIENTATION_TECHNICAL_ADOPTION_GROUPS
+);

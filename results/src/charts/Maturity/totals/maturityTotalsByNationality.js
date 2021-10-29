@@ -51,3 +51,41 @@ export const AVERAGE_TOTAL_BG_INT = calculateAverageTotal(
 export const AVERAGE_TOTAL_MULTI = calculateAverageTotal("multinational");
 
 console.log(AVERAGE_TOTAL_BG_BG, AVERAGE_TOTAL_BG_INT, AVERAGE_TOTAL_MULTI);
+
+// cultural adoption groups by nationality
+
+const calculatTechnicalAdoptionGroupsByNationality = (nationalitySegment) => ({
+  very_low: nationalitySegment.filter((response) => response.MAT_TOTAL < 50)
+    .length,
+  low: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 50 && response.MAT_TOTAL <= 59.999
+  ).length,
+  neutral: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 60 && response.MAT_TOTAL <= 69.999
+  ).length,
+  high: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 70 && response.MAT_TOTAL <= 79.999
+  ).length,
+  very_high: nationalitySegment.filter(
+    (response) => response.MAT_TOTAL >= 80 && response.MAT_TOTAL <= 89.999
+  ).length,
+  exceptional: nationalitySegment.filter((response) => response.MAT_TOTAL >= 90)
+    .length,
+});
+
+const NATIONALITY_TECHNICAL_ADOPTION_GROUPS = {
+  bulgaria_bulgarian: calculatTechnicalAdoptionGroupsByNationality(
+    BY_COMPANY_NATIONALITY.bulgaria_bulgarian
+  ),
+  bulgaria_international: calculatTechnicalAdoptionGroupsByNationality(
+    BY_COMPANY_NATIONALITY.bulgaria_international
+  ),
+  multinational: calculatTechnicalAdoptionGroupsByNationality(
+    BY_COMPANY_NATIONALITY.multinational
+  ),
+};
+
+console.log(
+  "NATIONALITY_TECHNICAL_ADOPTION_GROUPS: ",
+  NATIONALITY_TECHNICAL_ADOPTION_GROUPS
+);

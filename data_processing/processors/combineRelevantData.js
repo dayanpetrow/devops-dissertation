@@ -39,9 +39,7 @@ const combineRelevantData = ({
     return {
       ...response,
       CUL_TOTAL: cultureHashmap[response._ID].CUL_TOTAL,
-      CUL_AVG: cultureHashmap[response._ID].CUL_AVG,
       MAT_TOTAL: maturityHashmap[response._ID].MAT_TOTAL,
-      MAT_AVG: maturityHashmap[response._ID].MAT_AVG,
       PER_AGIREL: perceptionHashmap[response._ID].PER_AGIREL,
     };
   });

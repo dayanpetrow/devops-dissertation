@@ -73,7 +73,6 @@ const processCultureStep = (responses) => {
     return {
       ...response,
       CUL_TOTAL: total,
-      CUL_AVG: (total / 10).toFixed(2),
     };
   });
 

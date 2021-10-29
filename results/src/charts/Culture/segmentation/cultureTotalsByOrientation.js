@@ -63,3 +63,30 @@ const TOTAL_MIXED_ORIENTATION_SCORE = Object.keys(
 );
 export const AVERAGE_MIXED_ORIENTATION_SCORE =
   TOTAL_MIXED_ORIENTATION_SCORE / BY_ORIENTATION.mixed.length;
+
+// cultural adoption groups by orientation
+const calculateCulturalAdoptionGroupsByOrientation = (orientationSegment) => ({
+  low: orientationSegment.filter((response) => response.CUL_TOTAL <= 24.999)
+    .length,
+
+  neutral: orientationSegment.filter(
+    (response) => response.CUL_TOTAL >= 25 && response.CUL_TOTAL <= 34.999
+  ).length,
+
+  high: orientationSegment.filter(
+    (response) => response.CUL_TOTAL >= 35 && response.CUL_TOTAL <= 44.999
+  ).length,
+  very_high: orientationSegment.filter((response) => response.CUL_TOTAL >= 45)
+    .length,
+});
+
+const ORIENTATION_CULTURAL_ADOPTION_GROUPS = {
+  product: calculateCulturalAdoptionGroupsByOrientation(BY_ORIENTATION.product),
+  service: calculateCulturalAdoptionGroupsByOrientation(BY_ORIENTATION.service),
+  mixed: calculateCulturalAdoptionGroupsByOrientation(BY_ORIENTATION.mixed),
+};
+
+console.log(
+  "ORIENTATION_CULTURAL_ADOPTION_GROUPS: ",
+  ORIENTATION_CULTURAL_ADOPTION_GROUPS
+);

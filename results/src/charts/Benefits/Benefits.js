@@ -30,6 +30,8 @@ import {
   PROEJECT_BENEFITS_BY_EXPERIENCE_CHART_DATA,
 } from "./segmentation/benefitsByExperience";
 
+import * as utilityData from "./utilityData/utilityData";
+
 export const Benefits = () => {
   return (
     <>

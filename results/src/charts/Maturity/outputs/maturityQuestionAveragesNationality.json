@@ -1,0 +1,87 @@
+{
+  "MAT_LEADTIME": {
+    "BG_BG": "4.818",
+    "BG_INT": "4.643",
+    "MULTINATIONAL": "5.000"
+  },
+  "MAT_DEPFRE": {
+    "BG_BG": "2.727",
+    "BG_INT": "3.429",
+    "MULTINATIONAL": "4.231"
+  },
+  "MAT_TIMRES": {
+    "BG_BG": "5.818",
+    "BG_INT": "6.357",
+    "MULTINATIONAL": "7.154"
+  },
+  "MAT_CHAFAIL": {
+    "BG_BG": "8.455",
+    "BG_INT": "8.714",
+    "MULTINATIONAL": "9.538"
+  },
+  "MAT_TOOLINC_SCORE": {
+    "BG_BG": "3.773",
+    "BG_INT": "4.786",
+    "MULTINATIONAL": "6.423"
+  },
+  "MAT_DEMDEP": {
+    "BG_BG": "3.136",
+    "BG_INT": "3.750",
+    "MULTINATIONAL": "3.923"
+  },
+  "MAT_BISHDEP": {
+    "BG_BG": "3.909",
+    "BG_INT": "4.107",
+    "MULTINATIONAL": "4.077"
+  },
+  "MAT_COMAUTO": {
+    "BG_BG": "4.182",
+    "BG_INT": "4.321",
+    "MULTINATIONAL": "4.538"
+  },
+  "MAT_FAILTEST": {
+    "BG_BG": "4.364",
+    "BG_INT": "4.464",
+    "MULTINATIONAL": "4.577"
+  },
+  "MAT_ACTAUT": {
+    "BG_BG": "3.227",
+    "BG_INT": "3.821",
+    "MULTINATIONAL": "4.154"
+  },
+  "MAT_PRODINC": {
+    "BG_BG": "3.182",
+    "BG_INT": "3.393",
+    "MULTINATIONAL": "3.846"
+  },
+  "MAT_MONISS": {
+    "BG_BG": "3.636",
+    "BG_INT": "3.786",
+    "MULTINATIONAL": "4.115"
+  },
+  "MAT_MONMET": {
+    "BG_BG": "3.545",
+    "BG_INT": "3.536",
+    "MULTINATIONAL": "4.115"
+  },
+  "MAT_SECREW": {
+    "BG_BG": "3.000",
+    "BG_INT": "3.179",
+    "MULTINATIONAL": "3.808"
+  },
+  "MAT_DOCUME": {
+    "BG_BG": "2.818",
+    "BG_INT": "3.071",
+    "MULTINATIONAL": "3.269"
+  },
+  "MAT_DEPSTA": {
+    "BG_BG": "3.818",
+    "BG_INT": "3.821",
+    "MULTINATIONAL": "4.038"
+  },
+  "MAT_TOTAL": {
+    "BG_BG": "67.182",
+    "BG_INT": "72.143",
+    "MULTINATIONAL": "80.000"
+  }
+}

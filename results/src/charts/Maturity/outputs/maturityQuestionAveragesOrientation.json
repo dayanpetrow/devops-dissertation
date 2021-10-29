@@ -1,0 +1,87 @@
+{
+  "MAT_LEADTIME": {
+    "product": "4.500",
+    "service": "5.111",
+    "mixed": "4.857"
+  },
+  "MAT_DEPFRE": {
+    "product": "3.357",
+    "service": "3.407",
+    "mixed": "3.810"
+  },
+  "MAT_TIMRES": {
+    "product": "6.429",
+    "service": "6.444",
+    "mixed": "6.571"
+  },
+  "MAT_CHAFAIL": {
+    "product": "9.286",
+    "service": "8.815",
+    "mixed": "8.571"
+  },
+  "MAT_TOOLINC_SCORE": {
+    "product": "5.000",
+    "service": "4.704",
+    "mixed": "5.571"
+  },
+  "MAT_DEMDEP": {
+    "product": "3.607",
+    "service": "3.704",
+    "mixed": "3.571"
+  },
+  "MAT_BISHDEP": {
+    "product": "3.786",
+    "service": "4.037",
+    "mixed": "4.381"
+  },
+  "MAT_COMAUTO": {
+    "product": "4.250",
+    "service": "4.444",
+    "mixed": "4.381"
+  },
+  "MAT_FAILTEST": {
+    "product": "4.286",
+    "service": "4.667",
+    "mixed": "4.476"
+  },
+  "MAT_ACTAUT": {
+    "product": "3.893",
+    "service": "3.556",
+    "mixed": "3.857"
+  },
+  "MAT_PRODINC": {
+    "product": "3.643",
+    "service": "3.222",
+    "mixed": "3.619"
+  },
+  "MAT_MONISS": {
+    "product": "3.964",
+    "service": "3.741",
+    "mixed": "3.857"
+  },
+  "MAT_MONMET": {
+    "product": "3.964",
+    "service": "3.630",
+    "mixed": "3.571"
+  },
+  "MAT_SECREW": {
+    "product": "3.500",
+    "service": "3.037",
+    "mixed": "3.524"
+  },
+  "MAT_DOCUME": {
+    "product": "2.964",
+    "service": "2.963",
+    "mixed": "3.333"
+  },
+  "MAT_DEPSTA": {
+    "product": "3.679",
+    "service": "4.111",
+    "mixed": "3.905"
+  },
+  "MAT_TOTAL": {
+    "product": "73.321",
+    "service": "72.444",
+    "mixed": "74.714"
+  }
+}
