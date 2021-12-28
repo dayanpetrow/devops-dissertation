@@ -15,36 +15,69 @@ import { Maturity } from "./charts/Maturity/Maturity";
 import { Population } from "./charts/Population/Population";
 
 const STEPS = {
-  PROFESSIONAL: "Professional",
+  DEMOGRAPHICS: "Demographics",
   PERCEPTION: "Perception",
   MATURITY: "Maturity",
   CULTURE: "Culture",
   BENEFITS: "Benefits",
   CHALLENGES: "Challenges",
-  POPULATION: "Population",
+  // POPULATION: "Population",
 };
 
 export const App = () => {
-  const [activeTab, setActiveTab] = useState(STEPS.PROFESSIONAL);
+  const [activeTab, setActiveTab] = useState(STEPS.DEMOGRAPHICS);
+
+  const navigate = (path) => (window.location.href = path);
 
   return (
     <Wrapper>
       <Sidebar>
-        {Object.keys(STEPS).map((stepKey) => (
-          <Button onClick={() => setActiveTab(STEPS[stepKey])}>
-            {STEPS[stepKey]}
-          </Button>
-        ))}
+        <div className="nav">
+          <div>
+            <Button
+              type="primary"
+              shape="round"
+              target="_blank"
+              href={"/questionnaire"}
+            >
+              Questionnaire
+            </Button>
+            <Button type="primary" shape="round" target="_blank" href={"/data"}>
+              Files
+            </Button>
+            <Button
+              type="primary"
+              shape="round"
+              target="_blank"
+              href={"/devops_research.pdf"}
+            >
+              Report
+            </Button>
+          </div>
+          <div>
+            <span>Charts:</span>
+            {Object.keys(STEPS).map((stepKey) => (
+              <Button
+                type="primary"
+                shape="round"
+                variant={"primarh"}
+                onClick={() => setActiveTab(STEPS[stepKey])}
+              >
+                {STEPS[stepKey]}
+              </Button>
+            ))}
+          </div>
+        </div>
       </Sidebar>
       <Main>
         <StepHeader title={activeTab} />
-        {activeTab === STEPS.PROFESSIONAL && <Professional />}
+        {activeTab === STEPS.DEMOGRAPHICS && <Professional />}
         {activeTab === STEPS.PERCEPTION && <Perception />}
         {activeTab === STEPS.CULTURE && <Culture />}
         {activeTab === STEPS.BENEFITS && <Benefits />}
         {activeTab === STEPS.CHALLENGES && <Challenges />}
         {activeTab === STEPS.MATURITY && <Maturity />}
-        {activeTab === STEPS.POPULATION && <Population />}
+        {/* {activeTab === STEPS.POPULATION && <Population />} */}
       </Main>
     </Wrapper>
   );

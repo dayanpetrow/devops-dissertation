@@ -13,9 +13,25 @@ export const Sidebar = styled.aside`
   align-items: center;
   justify-content: center;
   z-index: 2;
+  width: 100%;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+
   @media (max-width: 1024px) {
     display: none;
+  }
+
+  .nav {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    div {
+      > * {
+        margin: 4px;
+      }
+    }
   }
 `;
 

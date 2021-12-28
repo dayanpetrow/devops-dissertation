@@ -1,6 +1,6 @@
 .charts-wrapper {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1440px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -8,13 +8,13 @@
 
 .chart-wrapper {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1440px;
   padding: 12px 24px;
 }
 
 .section-title {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1440px;
   text-align: center;
   background-color: #d9d9d9;
   border-radius: 4px;
